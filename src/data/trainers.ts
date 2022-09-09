@@ -98,4 +98,241 @@ export const trainers: TrainerData[] = [
     y: 4129,
     spinner: true,
   },
+
+  // Rt 104
+  {
+    name: "Youngster",
+    numPokemon: 2,
+    pokemonLevels: [8, 11],
+    x: 282,
+    y: 4159,
+    walker: true,
+  },
+  {
+    name: "Fisherman",
+    numPokemon: 1,
+    pokemonLevels: [15],
+    x: 237,
+    y: 4000,
+  },
+  {
+    name: "Lady",
+    numPokemon: 1,
+    pokemonLevels: [11],
+    x: 176,
+    y: 3761,
+    spinner: true,
+  },
+  {
+    name: "Lady",
+    numPokemon: 0,
+    pokemonLevels: [0],
+    x: 480,
+    y: 3860,
+    walker: true,
+  },
+  {
+    name: "Rich Boy",
+    numPokemon: 1,
+    pokemonLevels: [11],
+    x: 329,
+    y: 3455,
+    spinner: true,
+  },
+  {
+    name: "Lass",
+    numPokemon: 2,
+    pokemonLevels: [9, 9],
+    x: 496,
+    y: 3440,
+    spinner: true,
+  },
+  {
+    name: "Twin Girls",
+    numPokemon: 0,
+    pokemonLevels: [0],
+    x: 433,
+    y: 3299,
+  },
+  {
+    name: "Fisherman",
+    numPokemon: 3,
+    pokemonLevels: [8, 9, 11],
+    x: 463,
+    y: 3185,
+  },
+
+  // Petalburg Woods
+  {
+    name: "Bug Catcher",
+    numPokemon: 4,
+    pokemonLevels: [5, 5, 5, 5],
+    x: 736,
+    y: 3655,
+  },
+  {
+    name: "Aqua Grunt",
+    numPokemon: 1,
+    pokemonLevels: [15],
+    x: 1040,
+    y: 3486,
+  },
+  {
+    name: "Bug Catcher",
+    numPokemon: 2,
+    pokemonLevels: [9],
+    x: 688,
+    y: 3372,
+  },
+
+  // Rustboro City
+  {
+    name: "Rival",
+    numPokemon: 2,
+    pokemonLevels: [21, 24],
+    x: 257,
+    y: 2899,
+  },
+
+  // Rt 115
+
+  // Rt 116
+  {
+    name: "Bug Catcher",
+    numPokemon: 2,
+    pokemonLevels: [12, 12],
+    x: 849,
+    y: 2368,
+    spinner: true,
+  },
+  {
+    name: "Youngster",
+    numPokemon: 1,
+    pokemonLevels: [15],
+    x: 834,
+    y: 2211,
+  },
+  {
+    name: "School Girl",
+    numPokemon: 1,
+    pokemonLevels: [15],
+    x: 993,
+    y: 2354,
+  },
+  {
+    name: "Youngster",
+    numPokemon: 2,
+    pokemonLevels: [12, 12],
+    x: 1217,
+    y: 2306,
+  },
+  {
+    name: "Hiker",
+    numPokemon: 1,
+    pokemonLevels: [12],
+    x: 1217,
+    y: 2368,
+    spinner: true,
+  },
+  {
+    name: "Hiker",
+    numPokemon: 2,
+    pokemonLevels: [12, 12],
+    x: 1313,
+    y: 2305,
+  },
+  {
+    name: "Lady",
+    numPokemon: 2,
+    pokemonLevels: [12, 12],
+    x: 1168,
+    y: 2230,
+  },
+  {
+    name: "Rich Boy",
+    numPokemon: 2,
+    pokemonLevels: [12, 12],
+    x: 1169,
+    y: 2293,
+  },
+  {
+    name: "Lass",
+    numPokemon: 1,
+    pokemonLevels: [15],
+    x: 1168,
+    y: 2230,
+  },
+  {
+    name: "School Boy",
+    numPokemon: 1,
+    pokemonLevels: [15],
+    x: 1088,
+    y: 2213,
+  },
+
+  // Rusturf Tunnel
+  {
+    name: "Aqua Grunt",
+    numPokemon: 1,
+    pokemonLevels: [18],
+    x: 1528,
+    y: 2509,
+  },
+
+  // Rt 106
+  {
+    name: "Fisherman",
+    numPokemon: 1,
+    pokemonLevels: [18],
+    x: 1043,
+    y: 5840,
+    spinner: true,
+  },
+  {
+    name: "Fisherman",
+    numPokemon: 3,
+    pokemonLevels: [17, 11, 17],
+    x: 817,
+    y: 5841,
+  },
+
+  // Rt 109
+  {
+    name: "Sailor",
+    numPokemon: 2,
+    pokemonLevels: [20, 20],
+    x: 3439,
+    y: 5567,
+  },
+  {
+    name: "Tuber Girl",
+    numPokemon: 1,
+    pokemonLevels: [21],
+    x: 3471,
+    y: 5500,
+  },
+  {
+    name: "Tuber Boy",
+    numPokemon: 1,
+    pokemonLevels: [21],
+    x: 3504,
+    y: 5470,
+    // TODO: not sure if spinner
+    spinner: true,
+  },
+  {
+    name: "Tuber Girl",
+    numPokemon: 2,
+    pokemonLevels: [20, 20],
+    x: 3554,
+    y: 5403,
+  },
+  {
+    name: "Tuber Boy",
+    numPokemon: 2,
+    pokemonLevels: [20, 20],
+    x: 3631,
+    y: 5406,
+    spinner: true,
+  },
 ];
