@@ -335,4 +335,57 @@ export const trainers: TrainerData[] = [
     y: 5406,
     spinner: true,
   },
+  {
+    name: "Sailor",
+    numPokemon: 1,
+    pokemonLevels: [21],
+    x: 3566,
+    y: 5506,
+    spinner: true,
+  },
+
+  // Seashore House
+  // TODO: locations
+  // ~3:27:00 of video
+  {
+    name: "Tuber Boy",
+    numPokemon: 2,
+    pokemonLevels: [20, 20],
+    x: 0,
+    y: 0,
+  },
+  {
+    name: "Beauty",
+    numPokemon: 1,
+    pokemonLevels: [21],
+    x: 0,
+    y: 0,
+  },
+  {
+    name: "Sailor",
+    numPokemon: 3,
+    pokemonLevels: [18, 18, 18],
+    x: 0,
+    y: 0,
+  },
+
+  // Oceanic Museum
+  // TODO: locations
+  // 3:28:00 of video
+  {
+    name: "Aqua Grunt",
+    numPokemon: 1,
+    pokemonLevels: [24],
+    x: 0,
+    y: 0,
+  },
+  {
+    name: "Aqua Grunt",
+    numPokemon: 2,
+    pokemonLevels: [23, 23],
+    x: 0,
+    y: 0,
+  },
+
+  // Rt 110
 ];
