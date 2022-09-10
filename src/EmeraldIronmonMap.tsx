@@ -58,12 +58,12 @@ export const EmeraldIronmonMap = () => {
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
-          width="12880"
-          height="6266"
+          width="12800"
+          height="6325"
         >
           {/* TODO: can we get the height and width from the image? Think "FullKanto" is just the string though */}
           {/* if so, then put into variables */}
-          <image width="12880" height="6266" xlinkHref={FullHoenn}></image>
+          <image width="12800" height="6325" xlinkHref={FullHoenn}></image>
           {trainers.map((trainer, index) => {
             return (
               <Trainer

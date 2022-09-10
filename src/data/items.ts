@@ -18,168 +18,173 @@ export const items: ItemData[] = [
   // Rt 102
   {
     x: 1299,
-    y: 4263,
+    y: 4277,
     type: ItemType.Normal,
   },
 
   // Rt 104
   {
     x: 1299,
-    y: 4263,
+    y: 4278,
     type: ItemType.Hidden,
   },
   {
     x: 247,
-    y: 4075,
+    y: 4090,
     type: ItemType.Hidden,
   },
   {
     x: 229,
-    y: 3941,
+    y: 3956,
     type: ItemType.Hidden,
   },
   {
     x: 467,
-    y: 3914,
+    y: 3929,
     type: ItemType.Normal,
   },
   {
     x: 49,
-    y: 3208,
+    y: 3223,
     type: ItemType.Hidden,
   },
   {
     x: 82,
-    y: 3193,
+    y: 3208,
     type: ItemType.Normal,
   },
   {
     x: 113,
-    y: 3161,
+    y: 3176,
     type: ItemType.Hidden,
   },
   {
     x: 595,
-    y: 3417,
+    y: 3432,
     type: ItemType.Normal,
   },
 
   // Petalburg Woods
   {
-    x: 1250,
-    y: 3711,
+    x: 1235,
+    y: 3739,
     type: ItemType.Hidden,
   },
   {
-    x: 689,
-    y: 3568,
+    x: 676,
+    y: 3597,
     type: ItemType.Normal,
   },
   {
-    x: 690,
-    y: 3453,
+    x: 676,
+    y: 3482,
     type: ItemType.Hidden,
   },
   {
-    x: 689,
-    y: 3279,
+    x: 675,
+    y: 3307,
     type: ItemType.Normal,
   },
   {
-    x: 1040,
-    y: 3244,
+    x: 1027,
+    y: 3274,
     type: ItemType.Hidden,
   },
   {
-    x: 1346,
-    y: 3269,
+    x: 1332,
+    y: 3298,
     type: ItemType.Normal,
   },
   {
-    x: 1266,
-    y: 3615,
+    x: 1252,
+    y: 3644,
     type: ItemType.Hidden,
   },
   {
-    x: 1186,
-    y: 3462,
+    x: 1172,
+    y: 3501,
     type: ItemType.Normal,
   },
 
   // Rustboro City
   {
     x: 574,
-    y: 2918,
+    y: 2933,
     type: ItemType.Normal,
   },
 
   // Rt 115
   {
     x: 321,
-    y: 1784,
+    y: 1799,
     type: ItemType.Normal,
   },
 
   // Rt 116
   {
     x: 801,
-    y: 2375,
+    y: 2390,
     type: ItemType.Normal,
   },
   {
     x: 946,
-    y: 2201,
+    y: 2216,
     type: ItemType.Normal,
   },
   {
     x: 1518,
-    y: 2296,
+    y: 2312,
     type: ItemType.Normal,
   },
   {
     x: 994,
-    y: 2247,
+    y: 2262,
     type: ItemType.Hidden,
+  },
+  {
+    x: 1185,
+    y: 2231,
+    type: ItemType.Normal,
   },
 
   // Rusturf Tunnel
   {
-    x: 1370,
-    y: 2451,
+    x: 1374,
+    y: 2464,
     type: ItemType.Normal,
   },
 
   // Rt 106
   {
     x: 1094,
-    y: 5866,
+    y: 5881,
     type: ItemType.Hidden,
   },
   {
     x: 850,
-    y: 5815,
+    y: 5830,
     type: ItemType.Hidden,
   },
   {
     x: 655,
-    y: 5801,
+    y: 5816,
     type: ItemType.Hidden,
   },
 
   // Granite Cave
   {
-    x: 1160,
-    y: 5482,
+    x: 1158,
+    y: 5500,
     type: ItemType.Normal,
   },
   {
-    x: 901,
-    y: 5282,
+    x: 899,
+    y: 2300,
     type: ItemType.Normal,
   },
   {
     x: 900,
-    y: 4687,
+    y: 4705,
     type: ItemType.Hidden,
   },
 
