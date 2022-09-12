@@ -22,6 +22,18 @@ export const items: ItemData[] = [
     type: ItemType.Normal,
   },
 
+  // Rt 103
+  {
+    x: 2721,
+    y: 3797,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2945,
+    y: 3830,
+    type: ItemType.Normal,
+  },
+
   // Rt 104
   {
     x: 1299,
@@ -119,6 +131,21 @@ export const items: ItemData[] = [
     y: 1799,
     type: ItemType.Normal,
   },
+  {
+    x: 241,
+    y: 1625,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 497,
+    y: 1735,
+    type: ItemType.Normal,
+  },
+  {
+    x: 418,
+    y: 1912,
+    type: ItemType.Normal,
+  },
 
   // Rt 116
   {
@@ -151,6 +178,21 @@ export const items: ItemData[] = [
   {
     x: 1374,
     y: 2464,
+    type: ItemType.Normal,
+  },
+  {
+    x: 1808,
+    y: 2481,
+    type: ItemType.Normal,
+  },
+  {
+    x: 1760,
+    y: 2325,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 1922,
+    y: 2247,
     type: ItemType.Normal,
   },
 
@@ -191,32 +233,201 @@ export const items: ItemData[] = [
   // Rt 109
   {
     x: 3453,
-    y: 5677,
+    y: 5691,
     type: ItemType.Hidden,
   },
   {
     x: 3408,
-    y: 5560,
+    y: 5575,
     type: ItemType.Hidden,
   },
   {
     x: 3346,
-    y: 5464,
+    y: 5479,
     type: ItemType.Hidden,
   },
   {
     x: 3733,
-    y: 5380,
+    y: 5396,
     type: ItemType.Hidden,
   },
   {
     x: 3601,
-    y: 5416,
+    y: 5418,
     type: ItemType.Normal,
   },
   {
     x: 3654,
-    y: 5629,
+    y: 5644,
+    type: ItemType.Hidden,
+  },
+
+  // Rt 110
+  {
+    x: 3682,
+    y: 3863,
+    type: ItemType.Normal,
+  },
+  {
+    x: 3794,
+    y: 3831,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 3730,
+    y: 3480,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 3762,
+    y: 3384,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 3295,
+    y: 3367,
+    type: ItemType.Normal,
+  },
+  {
+    x: 3266,
+    y: 3318,
+    type: ItemType.Hidden,
+  },
+
+  // Trick House
+  {
+    x: 3100,
+    y: 4101,
+    type: ItemType.Normal,
+  },
+
+  // Mauville
+  {
+    x: 3650,
+    y: 2744,
+    type: ItemType.Normal,
+  },
+
+  // Rt 118
+  {
+    x: 4034,
+    y: 2664,
+    type: ItemType.Hidden,
+  },
+
+  // Rt 117
+  {
+    x: 2385,
+    y: 2455,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2497,
+    y: 2724,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2288,
+    y: 2722,
+    type: ItemType.Hidden,
+  },
+
+  // Rt 111
+  {
+    x: 3505,
+    y: 2085,
+    type: ItemType.Normal,
+  },
+
+  // Rt 113
+  {
+    x: 2658,
+    y: 248,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 2865,
+    y: 278,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2446,
+    y: 312,
+    type: ItemType.Normal,
+  },
+  {
+    x: 1842,
+    y: 441,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2770,
+    y: 247,
+    type: ItemType.Hidden,
+  },
+
+  // Fallabor Town
+  {
+    x: 1313,
+    y: 437,
+    type: ItemType.Hidden,
+  },
+
+  // Rt 114
+  {
+    x: 754,
+    y: 680,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 818,
+    y: 793,
+    type: ItemType.Normal,
+  },
+  {
+    x: 962,
+    y: 1111,
+    type: ItemType.Hidden,
+  },
+
+  // Meteor Falls
+  {
+    x: 1072,
+    y: 1525,
+    type: ItemType.Normal,
+  },
+  {
+    x: 672,
+    y: 1669,
+    type: ItemType.Normal,
+  },
+
+  // Jagged Pass
+  {
+    x: 1412,
+    y: 680,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 1652,
+    y: 908,
+    type: ItemType.Normal,
+  },
+  {
+    x: 1394,
+    y: 984,
+    type: ItemType.Hidden,
+  },
+
+  // Lavaridge Town
+  {
+    x: 2785,
+    y: 1208,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2306,
+    y: 1232,
     type: ItemType.Hidden,
   },
 ];
