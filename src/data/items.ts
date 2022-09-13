@@ -34,6 +34,23 @@ export const items: ItemData[] = [
     type: ItemType.Normal,
   },
 
+  // Petalburg City
+  {
+    x: 947,
+    y: 3912,
+    type: ItemType.Normal,
+  },
+  {
+    x: 817,
+    y: 4340,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 691,
+    y: 4327,
+    type: ItemType.Normal,
+  },
+
   // Rt 104
   {
     x: 1299,
@@ -229,6 +246,21 @@ export const items: ItemData[] = [
     y: 4705,
     type: ItemType.Hidden,
   },
+  {
+    x: 726,
+    y: 4595,
+    type: ItemType.Normal,
+  },
+  {
+    x: 1125,
+    y: 4592,
+    type: ItemType.Normal,
+  },
+  {
+    x: 1108,
+    y: 4623,
+    type: ItemType.Hidden,
+  },
 
   // Rt 109
   {
@@ -292,6 +324,11 @@ export const items: ItemData[] = [
     x: 3266,
     y: 3318,
     type: ItemType.Hidden,
+  },
+  {
+    x: 3618,
+    y: 3513,
+    type: ItemType.Normal,
   },
 
   // Trick House
@@ -429,5 +466,78 @@ export const items: ItemData[] = [
     x: 2306,
     y: 1232,
     type: ItemType.Hidden,
+  },
+
+  // Fiery Path
+  {
+    x: 2811,
+    y: 2012,
+    type: ItemType.Normal,
+  },
+
+  // Desert
+  {
+    x: 3394,
+    y: 1063,
+    type: ItemType.Normal,
+  },
+  {
+    x: 3497,
+    y: 1072,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 3762,
+    y: 1255,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 3618,
+    y: 1319,
+    type: ItemType.Hidden,
+  },
+
+  // Rt 105
+  {
+    x: 242,
+    y: 5450,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 128,
+    y: 5527,
+    type: ItemType.Normal,
+  },
+  {
+    x: 461,
+    y: 5864,
+    type: ItemType.Normal,
+  },
+  {
+    x: 81,
+    y: 5250,
+    type: ItemType.Hidden,
+  },
+
+  // Rt 107
+  {
+    x: 2914,
+    y: 6022,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2850,
+    y: 6183,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 3327,
+    y: 5989,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 3635,
+    y: 6057,
+    type: ItemType.Normal,
   },
 ];
