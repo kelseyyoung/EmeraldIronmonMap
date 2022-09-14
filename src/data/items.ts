@@ -92,6 +92,11 @@ export const items: ItemData[] = [
     y: 3432,
     type: ItemType.Normal,
   },
+  {
+    x: 626,
+    y: 3317,
+    type: ItemType.Normal,
+  },
 
   // Petalburg Woods
   {
@@ -161,6 +166,21 @@ export const items: ItemData[] = [
   {
     x: 418,
     y: 1912,
+    type: ItemType.Normal,
+  },
+  {
+    x: 193,
+    y: 1066,
+    type: ItemType.Normal,
+  },
+  {
+    x: 290,
+    y: 951,
+    type: ItemType.TM,
+  },
+  {
+    x: 371,
+    y: 1300,
     type: ItemType.Normal,
   },
 
@@ -351,6 +371,11 @@ export const items: ItemData[] = [
     y: 2664,
     type: ItemType.Hidden,
   },
+  {
+    x: 4338,
+    y: 2647,
+    type: ItemType.Hidden,
+  },
 
   // Rt 117
   {
@@ -373,6 +398,11 @@ export const items: ItemData[] = [
   {
     x: 3505,
     y: 2085,
+    type: ItemType.Normal,
+  },
+  {
+    x: 3249,
+    y: 2024,
     type: ItemType.Normal,
   },
 
@@ -539,5 +569,96 @@ export const items: ItemData[] = [
     x: 3635,
     y: 6057,
     type: ItemType.Normal,
+  },
+
+  // TODO: New Mauville route at ~40mins
+  {
+    x: 2798,
+    y: 3113,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2575,
+    y: 2938,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2815,
+    y: 2921,
+    type: ItemType.Normal,
+  },
+  {
+    x: 3166,
+    y: 2826,
+    type: ItemType.Normal,
+  },
+  {
+    x: 3054,
+    y: 3161,
+    type: ItemType.Normal,
+  },
+
+  // Rt 119
+  {
+    x: 4946,
+    y: 2549,
+    type: ItemType.Normal,
+  },
+  {
+    x: 4673,
+    y: 2137,
+    type: ItemType.Normal,
+  },
+  {
+    x: 4898,
+    y: 2126,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 5010,
+    y: 2074,
+    type: ItemType.Normal,
+  },
+  {
+    x: 4544,
+    y: 1735,
+    type: ItemType.Normal,
+  },
+  {
+    x: 4754,
+    y: 1509,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 4865,
+    y: 872,
+    type: ItemType.Normal,
+  },
+  {
+    x: 4801,
+    y: 662,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 5090,
+    y: 1204,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 4881,
+    y: 1418,
+    type: ItemType.Normal,
+  },
+
+  // Rt 123
+  {
+    x: 5553,
+    y: 2726,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5314,
+    y: 2453,
+    type: ItemType.Hidden,
   },
 ];
