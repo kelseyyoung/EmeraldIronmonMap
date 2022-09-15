@@ -407,6 +407,7 @@ export const items: ItemData[] = [
   },
 
   // Rt 113
+  // TODO: there is a TM here https://bulbapedia.bulbagarden.net/wiki/Appendix:Emerald_walkthrough/Section_6
   {
     x: 2658,
     y: 248,
@@ -499,6 +500,7 @@ export const items: ItemData[] = [
   },
 
   // Fiery Path
+  // TODO: there is a TM here
   {
     x: 2811,
     y: 2012,
@@ -506,6 +508,7 @@ export const items: ItemData[] = [
   },
 
   // Desert
+  // TODO: there is a TM here
   {
     x: 3394,
     y: 1063,
