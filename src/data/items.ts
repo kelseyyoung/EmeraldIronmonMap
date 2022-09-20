@@ -653,6 +653,112 @@ export const items: ItemData[] = [
     type: ItemType.Normal,
   },
 
+  // Rt 120
+  {
+    x: 5906,
+    y: 211,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 6258,
+    y: 374,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 6114,
+    y: 405,
+    type: ItemType.Normal,
+  },
+  {
+    x: 6146,
+    y: 727,
+    type: ItemType.Normal,
+  },
+  {
+    x: 6145,
+    y: 874,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 6082,
+    y: 1082,
+    type: ItemType.Normal,
+  },
+  {
+    x: 6130,
+    y: 1512,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5872,
+    y: 1622,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5762,
+    y: 1575,
+    type: ItemType.Hidden,
+  },
+
+  // Rt 121
+  {
+    x: 6770,
+    y: 1638,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 7009,
+    y: 1686,
+    type: ItemType.Normal,
+  },
+  {
+    x: 7360,
+    y: 1640,
+    type: ItemType.Normal,
+  },
+  {
+    x: 7553,
+    y: 1559,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 7329,
+    y: 1528,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 7490,
+    y: 1607,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 7282,
+    y: 1638,
+    type: ItemType.Normal,
+  },
+
+  // Lilycove City
+  {
+    x: 8658,
+    y: 1430,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 8707,
+    y: 1815,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 8257,
+    y: 1815,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 8659,
+    y: 1896,
+    type: ItemType.Normal,
+  },
+
   // Rt 123
   {
     x: 5553,
@@ -663,5 +769,45 @@ export const items: ItemData[] = [
     x: 5314,
     y: 2453,
     type: ItemType.Hidden,
+  },
+  {
+    x: 7330,
+    y: 2721,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 7345,
+    y: 2674,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 6578,
+    y: 2678,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 6321,
+    y: 2456,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 6322,
+    y: 2583,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5617,
+    y: 2569,
+    type: ItemType.Normal,
+  },
+  {
+    x: 6033,
+    y: 2696,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5809,
+    y: 2685,
+    type: ItemType.Normal,
   },
 ];
