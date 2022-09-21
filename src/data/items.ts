@@ -810,4 +810,100 @@ export const items: ItemData[] = [
     y: 2685,
     type: ItemType.Normal,
   },
+
+  // Mt Pyre
+  {
+    x: 6937,
+    y: 3765,
+    type: ItemType.Normal,
+  },
+  {
+    x: 6937,
+    y: 3510,
+    type: ItemType.Normal,
+  },
+  {
+    x: 7034,
+    y: 2914,
+    type: ItemType.TM,
+  },
+  {
+    x: 7034,
+    y: 3154,
+    type: ItemType.Normal,
+  },
+  {
+    x: 6986,
+    y: 3364,
+    type: ItemType.Normal,
+  },
+
+  // Mt Pyre Outside
+  {
+    x: 7512,
+    y: 4001,
+    type: ItemType.TM,
+  },
+  {
+    x: 7641,
+    y: 3603,
+    type: ItemType.Normal,
+  },
+  {
+    x: 7465,
+    y: 3713,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 7352,
+    y: 3491,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 7744,
+    y: 2882,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 7296,
+    y: 3170,
+    type: ItemType.Hidden,
+  },
+
+  // Magma Hideout
+  {
+    x: 4980,
+    y: 3550,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5053,
+    y: 3145,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5415,
+    y: 2962,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5636,
+    y: 3455,
+    type: ItemType.Normal,
+  },
+  {
+    x: 3894,
+    y: 3080,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5523,
+    y: 3437,
+    type: ItemType.Normal,
+  },
+  {
+    x: 3990,
+    y: 3676,
+    type: ItemType.Normal,
+  },
 ];
