@@ -688,7 +688,6 @@ export const trainers: TrainerData[] = [
   },
 
   // Rt 117
-  // TODO: Lass Twins
   {
     name: "Triathlete Dylan",
     numPokemon: 1,
@@ -1206,7 +1205,7 @@ export const trainers: TrainerData[] = [
   },
 
   // Rt 105
-  // Missing Swimmer Beverly?
+  // TODO: Missing Swimmer Beverly?
   {
     name: "Swimmer Imani",
     numPokemon: 1,
@@ -1606,21 +1605,21 @@ export const trainers: TrainerData[] = [
 
   // Rt 120
   {
-    name: "Parasol Girl",
+    name: "Parasol Lady Clarissa",
     numPokemon: 2,
     pokemonLevels: [45, 45],
     x: 6016,
     y: 286,
   },
   {
-    name: "Bird Catcher",
+    name: "Bird Keeper Robert",
     numPokemon: 1,
     pokemonLevels: [47],
     x: 6272,
     y: 419,
   },
   {
-    name: "Bird Catcher",
+    name: "Bird Keeper Colin",
     numPokemon: 2,
     pokemonLevels: [45, 45],
     x: 5841,
@@ -1628,35 +1627,35 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Cooltrainer Leonel",
     numPokemon: 1,
     pokemonLevels: [48],
     x: 5985,
     y: 735,
   },
   {
-    name: "Parasol Girl",
+    name: "Parasol Lady Angelica",
     numPokemon: 1,
     pokemonLevels: [48],
     x: 6050,
     y: 735,
   },
   {
-    name: "Battle Girl",
+    name: "Battle Girl Callie",
     numPokemon: 2,
     pokemonLevels: [45, 45],
     x: 5985,
     y: 735,
   },
   {
-    name: "Ninja Boy",
+    name: "Ninja Boy Riley",
     numPokemon: 2,
     pokemonLevels: [45, 45],
     x: 6050,
     y: 735,
   },
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Jennifer",
     numPokemon: 1,
     pokemonLevels: [48],
     x: 6255,
@@ -1664,35 +1663,35 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Picknicker",
+    name: "Pokemon Ranger Jenna",
     numPokemon: 3,
     pokemonLevels: [45, 45, 45],
     x: 6337,
     y: 914,
   },
   {
-    name: "Camper",
+    name: "Pokemon Ranger Lorenzo",
     numPokemon: 3,
     pokemonLevels: [45, 45, 45],
     x: 6193,
     y: 1008,
   },
   {
-    name: "Bug Maniac",
+    name: "Bug Maniac Jeffery",
     numPokemon: 3,
     pokemonLevels: [44, 44, 44],
     x: 6064,
     y: 1472,
   },
   {
-    name: "Ninja Boy",
+    name: "Ninja Boy Keigo",
     numPokemon: 2,
     pokemonLevels: [45, 45],
     x: 5921,
     y: 1348,
   },
   {
-    name: "Hiker",
+    name: "Ruin Maniac Chip",
     numPokemon: 3,
     pokemonLevels: [44, 44, 44],
     x: 5904,
@@ -1701,7 +1700,7 @@ export const trainers: TrainerData[] = [
 
   // Rt 121
   {
-    name: "Bug Maniac",
+    name: "Bug Maniac Cale",
     numPokemon: 2,
     pokemonLevels: [47, 47],
     x: 6576,
@@ -1709,56 +1708,56 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Psychic Girl",
+    name: "Hex Maniac Tammy",
     numPokemon: 2,
     pokemonLevels: [47, 47],
     x: 6575,
     y: 1645,
   },
   {
-    name: "Beauty",
+    name: "Beauty Jessica",
     numPokemon: 2,
     pokemonLevels: [47, 47],
     x: 6752,
     y: 1553,
   },
   {
-    name: "Lass Double Battle",
+    name: "Sr. and Jr. Kate & Joy",
     numPokemon: 0,
     pokemonLevels: [0],
     x: 7025,
     y: 1616,
   },
   {
-    name: "Breeder Boy",
+    name: "Pokemon Breeder Myles",
     numPokemon: 6,
     pokemonLevels: [41, 41, 41, 41, 41, 41],
     x: 7344,
     y: 1598,
   },
   {
-    name: "Breeder Girl",
+    name: "Pokemon Breeder Pat",
     numPokemon: 6,
     pokemonLevels: [41, 41, 41, 41, 41, 41],
     x: 7344,
     y: 1679,
   },
   {
-    name: "Pokefan Woman",
+    name: "Pokefan Vanessa",
     numPokemon: 1,
     pokemonLevels: [48],
     x: 7409,
     y: 1551,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Cooltrainer Marcel",
     numPokemon: 2,
     pokemonLevels: [47, 47],
     x: 7441,
     y: 1616,
   },
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Cristin",
     numPokemon: 2,
     pokemonLevels: [47, 47],
     x: 7554,
@@ -1766,7 +1765,7 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Gentleman",
+    name: "Gentleman Walter",
     numPokemon: 1,
     pokemonLevels: [47],
     x: 7280,
@@ -1805,42 +1804,42 @@ export const trainers: TrainerData[] = [
     y: 2642,
   },
   {
-    name: "Psychic Boy",
+    name: "Psychic Cameron",
     numPokemon: 1,
     pokemonLevels: [50],
     x: 7329,
     y: 2623,
   },
   {
-    name: "Ninja Boy",
+    name: "Ninja Boy Jonas",
     numPokemon: 1,
     pokemonLevels: [50],
     x: 7329,
     y: 2658,
   },
   {
-    name: "Lady",
+    name: "Parasol Lady Kayley",
     numPokemon: 1,
     pokemonLevels: [50],
     x: 7329,
     y: 2688,
   },
   {
-    name: "Psychic Girl",
+    name: "Hex Maniac Kindra",
     numPokemon: 2,
     pokemonLevels: [48, 48],
     x: 6511,
     y: 2623,
   },
   {
-    name: "Bug Maniac",
+    name: "Collector Ed",
     numPokemon: 2,
     pokemonLevels: [48, 48],
     x: 6511,
     y: 2705,
   },
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Wendy",
     numPokemon: 3,
     pokemonLevels: [47, 47, 47],
     x: 6240,
@@ -1848,35 +1847,35 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Guitarist Top",
+    name: "Guitarist Fernando",
     numPokemon: 2,
     pokemonLevels: [48, 48],
     x: 6176,
     y: 2688,
   },
   {
-    name: "Bird Keeper",
+    name: "Bird Keeper Alberto",
     numPokemon: 2,
     pokemonLevels: [48, 48],
     x: 6176,
     y: 2735,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Cooltrainer Braxton",
     numPokemon: 5,
     pokemonLevels: [45, 45, 45, 45, 45],
     x: 6049,
     y: 2545,
   },
   {
-    name: "Psychic Girl",
+    name: "Psychic Jacki",
     numPokemon: 2,
     pokemonLevels: [48, 48],
     x: 5904,
     y: 2689,
   },
   {
-    name: "Old Man",
+    name: "Expert Fredrick",
     numPokemon: 2,
     pokemonLevels: [48, 48],
     x: 5904,
@@ -1885,14 +1884,14 @@ export const trainers: TrainerData[] = [
 
   // Mt Pyre
   {
-    name: "Bug Maniac",
+    name: "Pokemaniac Mark",
     numPokemon: 1,
     pokemonLevels: [50],
     x: 6983,
     y: 3694,
   },
   {
-    name: "Psychic Girl",
+    name: "Hex Maniac Leah",
     numPokemon: 1,
     pokemonLevels: [50],
     x: 7031,
@@ -1900,21 +1899,21 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Fighter",
+    name: "Black Belt Zander",
     numPokemon: 1,
     pokemonLevels: [50],
     x: 7031,
     y: 3742,
   },
   {
-    name: "Cute Couple",
+    name: "Young Couple Dez & Luke",
     numPokemon: 2,
     pokemonLevels: [50, 50],
     x: 6964,
     y: 3741,
   },
   {
-    name: "Psychic Girl",
+    name: "Psychic Kayla",
     numPokemon: 3,
     pokemonLevels: [42, 42, 42],
     x: 7110,
@@ -1922,7 +1921,7 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Breeder Girl",
+    name: "Pokemon Breeder Gabrielle",
     numPokemon: 6,
     pokemonLevels: [42, 42, 42, 42, 42, 42],
     x: 7032,
@@ -1930,7 +1929,7 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Psychic Boy",
+    name: "Psychic William",
     numPokemon: 3,
     pokemonLevels: [42, 42, 42],
     x: 6952,
@@ -1938,7 +1937,7 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Psychic Girl",
+    name: "Hex Maniac Tasha",
     numPokemon: 1,
     pokemonLevels: [51],
     x: 7114,
@@ -1946,7 +1945,7 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Fighter",
+    name: "Black Belt Atsushi",
     numPokemon: 1,
     pokemonLevels: [51],
     x: 6987,
@@ -1954,7 +1953,7 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Psychic Girl",
+    name: "Hex Maniac Valerie",
     numPokemon: 1,
     pokemonLevels: [51],
     x: 7031,
@@ -1962,7 +1961,7 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Psychic Boy",
+    name: "Psychic Cedric",
     numPokemon: 1,
     pokemonLevels: [51],
     x: 7096,
@@ -2074,7 +2073,7 @@ export const trainers: TrainerData[] = [
     y: 3049,
   },
   {
-    name: "Magma Admin",
+    name: "Magma Admin Tabitha",
     numPokemon: 4,
     pokemonLevels: [42, 48, 45, 53],
     x: 5720,
@@ -2170,7 +2169,7 @@ export const trainers: TrainerData[] = [
     y: 827,
   },
   {
-    name: "Aqua Admin",
+    name: "Aqua Admin Matt",
     numPokemon: 2,
     pokemonLevels: [54, 54],
     x: 10149,
@@ -2188,7 +2187,7 @@ export const trainers: TrainerData[] = [
 
   // Rt 124
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Grace",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 9072,
@@ -2196,28 +2195,28 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Declan",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 9072,
     y: 1603,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Spencer",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 9509,
     y: 1523,
   },
   {
-    name: "Swimmer Double Battle",
-    numPokemon: 0,
+    name: "Sis and Bro Lila & Roy",
+    numPokemon: 2,
     pokemonLevels: [0],
     x: 9234,
     y: 1836,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Jenny",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 9709,
@@ -2225,26 +2224,39 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Chad",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 9959,
     y: 2063,
     walker: true,
   },
+  {
+    name: "Swimmer Leonardo",
+    numPokemon: 1,
+    pokemonLevels: [54],
+    x: 9854,
+    y: 2503,
+  },
+  {
+    name: "Triathlete Isobel",
+    numPokemon: 1,
+    pokemonLevels: [54],
+    x: 9983,
+    y: 2503,
+  },
 
   // Rt 125
   {
-    // TODO: is this a trainer?
-    name: "Sailor",
-    numPokemon: 0,
+    name: "Sailor Ernest",
+    numPokemon: 2,
     pokemonLevels: [0],
     x: 10576,
     y: 1618,
     spinner: true,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Nolen",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 10388,
@@ -2252,7 +2264,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Sharon",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 10760,
@@ -2260,7 +2272,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Tanya",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 10887,
@@ -2268,7 +2280,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Guitarist",
+    name: "Bird Keeper Presley",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 10934,
@@ -2276,7 +2288,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Old Man",
+    name: "Expert Auron",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 11001,
@@ -2284,15 +2296,15 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Stan",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 10963,
     y: 1290,
   },
   {
-    name: "Lass Double Battle",
-    numPokemon: 0,
+    name: "Sr. and Jr. Kim & Iris",
+    numPokemon: 2,
     pokemonLevels: [0],
     x: 10512,
     y: 1440,
@@ -2349,7 +2361,7 @@ export const trainers: TrainerData[] = [
     y: 1501,
   },
   {
-    name: "Maxie Double Battle",
+    name: "Maxie & Magma Admin Tabitha",
     numPokemon: 6,
     pokemonLevels: [57, 60, 63, 68, 69, 71],
     x: 11265,
@@ -2358,7 +2370,7 @@ export const trainers: TrainerData[] = [
 
   // Rt 126
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Dean",
     numPokemon: 3,
     pokemonLevels: [50, 50, 50],
     x: 9904,
@@ -2366,21 +2378,21 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Sienna",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 9200,
     y: 3473,
   },
   {
-    name: "Swimmer Boy",
+    name: "Triathlete Pablo",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 9071,
     y: 3473,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Barry",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 9881,
@@ -2388,7 +2400,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Nikki",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 9962,
@@ -2396,35 +2408,21 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Brenda",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 9104,
     y: 3190,
   },
   {
-    name: "Swimmer Boy",
-    numPokemon: 1,
-    pokemonLevels: [54],
-    x: 9854,
-    y: 2503,
-  },
-  {
-    name: "Swimmer Girl",
-    numPokemon: 1,
-    pokemonLevels: [54],
-    x: 9983,
-    y: 2503,
-  },
-  {
-    name: "Swimmer Boy",
+    name: "Swimmer Roland",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 9938,
     y: 2326,
   },
   {
-    name: "Swimmer Girl",
+    name: "Triathlete Isabella",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 10063,
@@ -2433,27 +2431,28 @@ export const trainers: TrainerData[] = [
 
   // Rt 127
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Athena",
     numPokemon: 2,
     pokemonLevels: [51, 51],
     x: 10512,
     y: 1440,
   },
   {
-    name: "Guitarist",
+    name: "Bird Keeper Aidan",
     numPokemon: 2,
     pokemonLevels: [51, 51],
     x: 10481,
     y: 2783,
   },
   {
-    name: "Swimmer Girl",
+    name: "Triathlete Donny",
     numPokemon: 2,
     pokemonLevels: [42, 54],
     x: 10528,
     y: 3506,
     spinner: true,
   },
+  // TODO: this swimmer not listed on Rt 127
   {
     name: "Swimmer Boy",
     numPokemon: 2,
@@ -2462,28 +2461,28 @@ export const trainers: TrainerData[] = [
     y: 3085,
   },
   {
-    name: "Fisherman",
+    name: "Fisherman Jonah",
     numPokemon: 3,
     pokemonLevels: [48, 50, 51],
     x: 10912,
     y: 2753,
   },
   {
-    name: "Fisherman",
+    name: "Fisherman Henry",
     numPokemon: 2,
     pokemonLevels: [50, 54],
     x: 11108,
     y: 2639,
   },
   {
-    name: "Fisherman",
+    name: "Fisherman Roger",
     numPokemon: 3,
     pokemonLevels: [24, 56, 41],
     x: 11265,
     y: 2720,
   },
   {
-    name: "Fighter",
+    name: "Black Belt Koji",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 11243,
@@ -2492,7 +2491,7 @@ export const trainers: TrainerData[] = [
 
   // Rt 128
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Alexa",
     numPokemon: 2,
     pokemonLevels: [54, 54],
     x: 10627,
@@ -2500,14 +2499,14 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Cooltrainer Ruben",
     numPokemon: 2,
     pokemonLevels: [54, 54],
     x: 10994,
     y: 3840,
   },
   {
-    name: "Swimmer Girl",
+    name: "Triathlete Katelyn",
     numPokemon: 1,
     pokemonLevels: [56],
     x: 11488,
@@ -2515,14 +2514,14 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Fisherman",
+    name: "Fisherman Wayne",
     numPokemon: 3,
     pokemonLevels: [50, 57, 50],
     x: 11249,
     y: 4144,
   },
   {
-    name: "Swimmer Boy",
+    name: "Triathlete Isaiah",
     numPokemon: 1,
     pokemonLevels: [56],
     x: 11857,
@@ -2530,7 +2529,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Carlee",
     numPokemon: 1,
     pokemonLevels: [56],
     x: 11857,
@@ -2538,7 +2537,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Harrison",
     numPokemon: 1,
     pokemonLevels: [56],
     x: 10881,
@@ -2548,7 +2547,7 @@ export const trainers: TrainerData[] = [
 
   // Rt 129
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Reed",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 10791,
@@ -2556,7 +2555,7 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Swimmer Boy",
+    name: "Triathlete Chase",
     numPokemon: 2,
     pokemonLevels: [42, 54],
     x: 10687,
@@ -2564,21 +2563,21 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Tisha",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 10445,
     y: 4691,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Clarence",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 10445,
     y: 4773,
   },
   {
-    name: "Swimmer Girl",
+    name: "Triathlete Allison",
     numPokemon: 2,
     pokemonLevels: [44, 53],
     x: 10461,
@@ -2588,7 +2587,7 @@ export const trainers: TrainerData[] = [
 
   // Rt 130
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Rodney",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 10080,
@@ -2596,7 +2595,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Katie",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 9071,
@@ -2604,7 +2603,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Santiago",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 9071,
@@ -2614,7 +2613,7 @@ export const trainers: TrainerData[] = [
 
   // Rt 131
   {
-    name: "Swimmer Girl",
+    name: "Triathlete Talia",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 8828,
@@ -2622,7 +2621,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Kevin",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 8828,
@@ -2630,7 +2629,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Richard",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 8664,
@@ -2638,7 +2637,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Kara",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 8444,
@@ -2646,21 +2645,21 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Susie",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 8148,
     y: 4692,
   },
   {
-    name: "Swimmer Double Battle",
+    name: "Sis and Bro Reli & Ian",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 8131,
     y: 4597,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Herman",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 8291,
@@ -2669,15 +2668,35 @@ export const trainers: TrainerData[] = [
   },
 
   // Rt 132
+  /**
+   * Missing
+   * 132
+   * Swimmer Gilbert
+   * Swimmer Dana
+   * Black Belt Kiyo
+   *
+   * 133
+   * Swimmer Linda
+   * Bird Keeper Beck
+   * Expert Conor
+   * Expert Mollie
+   * Swimmer Debra
+   * Swimmer Franklin
+   *
+   * 134
+   * Sailor Hudson
+   *
+   *
+   */
   {
-    name: "Fisherman",
+    name: "Fisherman Ronald",
     numPokemon: 6,
     pokemonLevels: [30, 33, 36, 42, 48, 56],
     x: 7184,
     y: 4784,
   },
   {
-    name: "Swimmer Girl",
+    name: "Swimmer Laurel",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 4767,
@@ -2685,7 +2704,7 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Swimmer Boy",
+    name: "Swimmer Jack",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 4668,
@@ -2693,7 +2712,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Fighter",
+    name: "Black Belt Hitoshi",
     numPokemon: 2,
     pokemonLevels: [51, 51],
     x: 4563,
@@ -2701,15 +2720,16 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Battle Girl",
+    name: "Battle Girl Reyna",
     numPokemon: 2,
     pokemonLevels: [53, 53],
+    // TODO: these coords are wrong
     x: 4563,
     y: 4593,
     walker: true,
   },
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Darcy",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 6925,
@@ -2717,21 +2737,21 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Old Man",
+    name: "Expert Paxton",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 6925,
     y: 4751,
   },
   {
-    name: "Old Lady",
+    name: "Expert Makayla",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 6736,
     y: 4818,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Cooltrainer Johnathan",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 6736,
@@ -2739,7 +2759,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Cooltrainer Warren",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 5708,
@@ -2747,21 +2767,21 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Dragon Tamer Aaron",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 4497,
     y: 4706,
   },
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Marley",
     numPokemon: 1,
     pokemonLevels: [54],
     x: 4529,
     y: 4706,
   },
   {
-    name: "Sailor",
+    name: "Sailor Kelvin",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 4222,
@@ -2769,7 +2789,7 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Guitarist",
+    name: "Bird Keeper Alex",
     numPokemon: 2,
     pokemonLevels: [53, 53],
     x: 4222,
@@ -2778,8 +2798,9 @@ export const trainers: TrainerData[] = [
   },
 
   // Abandoned Ship
+  // TODO: missing young couple
   {
-    name: "Youngster",
+    name: "Youngster Demetrius",
     numPokemon: 2,
     pokemonLevels: [41, 41],
     x: 2684,
@@ -2787,14 +2808,14 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Beauty",
+    name: "Beauty Thalia",
     numPokemon: 2,
     pokemonLevels: [41, 41],
     x: 2684,
     y: 5195,
   },
   {
-    name: "Sailor",
+    name: "Sailor Duncan",
     numPokemon: 2,
     pokemonLevels: [41, 41],
     x: 2315,
@@ -2802,7 +2823,7 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Tuber Boy",
+    name: "Tuber Charlie",
     numPokemon: 1,
     pokemonLevels: [42],
     x: 2525,
@@ -2810,14 +2831,14 @@ export const trainers: TrainerData[] = [
     walker: true,
   },
   {
-    name: "Tuber Girl",
+    name: "Tuber Jani",
     numPokemon: 1,
     pokemonLevels: [42],
     x: 2483,
     y: 4849,
   },
   {
-    name: "Hiker",
+    name: "Ruin Maniac Garrison",
     numPokemon: 1,
     pokemonLevels: [42],
     x: 2416,
@@ -2825,6 +2846,7 @@ export const trainers: TrainerData[] = [
   },
 
   // Seafloor Cavern
+  // TODO: think I'm missing a grunt here and maybe Admin Shelly
   {
     name: "Aqua Grunt",
     numPokemon: 1,
@@ -2864,10 +2886,11 @@ export const trainers: TrainerData[] = [
   },
 
   // Victory Road
+  // TODO: missing 1 dbl and Cooltrainer Michelle
   {
-    name: "Cooltrainer Boy",
-    numPokemon: 0,
-    pokemonLevels: [0],
+    name: "Cooltrainer Albert",
+    numPokemon: 2,
+    pokemonLevels: [69, 69],
     x: 11981,
     y: 2866,
     spinner: true,
@@ -2880,61 +2903,63 @@ export const trainers: TrainerData[] = [
     y: 2684,
   },
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Hope",
     numPokemon: 1,
     pokemonLevels: [72],
     x: 11650,
     y: 2566,
   },
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Shannon",
     numPokemon: 1,
     pokemonLevels: [72],
     x: 11965,
     y: 2069,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Cooltrainer Samuel",
     numPokemon: 3,
     pokemonLevels: [68, 68, 68],
     x: 12143,
     y: 2004,
   },
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Julie",
     numPokemon: 3,
     pokemonLevels: [68, 68, 68],
     x: 12109,
     y: 1643,
   },
   {
-    name: "Cooltrainer Boy",
-    numPokemon: 0,
+    name: "Cooltrainer Owen",
+    numPokemon: 3,
     pokemonLevels: [0],
     x: 12239,
     y: 1536,
   },
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Dianne",
     numPokemon: 2,
     pokemonLevels: [69, 69],
     x: 11947,
     y: 1587,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Cooltrainer Felix",
     numPokemon: 2,
     pokemonLevels: [69, 69],
     x: 11947,
     y: 1631,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Cooltrainer Vito",
     numPokemon: 4,
     pokemonLevels: [68, 68, 68, 68],
     x: 11791,
     y: 1393,
   },
+  // TODO: Not sure if next two are Mitchell & Halle
+  // or Katelynn and Quincy
   {
     name: "Cooltrainer Boy",
     numPokemon: 0,
@@ -2951,14 +2976,14 @@ export const trainers: TrainerData[] = [
     spinner: true,
   },
   {
-    name: "Cooltrainer Boy",
+    name: "Cooltrainer Edgar",
     numPokemon: 2,
     pokemonLevels: [69, 69],
     x: 12079,
     y: 2675,
   },
   {
-    name: "Cooltrainer Girl",
+    name: "Cooltrainer Caroline",
     numPokemon: 2,
     pokemonLevels: [69, 69],
     x: 11582,
@@ -2967,12 +2992,13 @@ export const trainers: TrainerData[] = [
 
   // Meteor Falls
   {
-    name: "Old Couple Double Battle",
-    numPokemon: 0,
+    name: "Old Couple John & Jay",
+    numPokemon: 2,
     pokemonLevels: [0],
     x: 1223,
     y: 1792,
   },
+  // TODO: missing Dragon Tamer
   {
     name: "Steven",
     numPokemon: 6,
