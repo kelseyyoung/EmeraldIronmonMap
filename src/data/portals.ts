@@ -791,8 +791,19 @@ export const portalGroups: MapPortalGroup[] = [
           y: 1548,
         },
         portal2: {
-          x: 2162,
-          y: 2072,
+          // TODO: change
+          x: 2322,
+          y: 2366,
+        },
+      },
+      {
+        portal1: {
+          x: 1662,
+          y: 1876,
+        },
+        portal2: {
+          x: 716,
+          y: 1506,
         },
       },
       {
@@ -809,12 +820,12 @@ export const portalGroups: MapPortalGroup[] = [
       // Exit
       {
         portal1: {
-          x: 731,
-          y: 2073,
+          x: 702,
+          y: 1469,
         },
         portal2: {
-          x: 430,
-          y: 1422,
+          x: 2239,
+          y: 2073,
         },
       },
     ],
@@ -1432,7 +1443,24 @@ export const portalGroups: MapPortalGroup[] = [
     ],
   },
 
-  // TODO: Seafloor Cavern
+  // Seafloor Cavern
+  {
+    color: "#ECA609",
+    area: "Seafloor Cavern",
+    portals: [
+      // Entrance
+      {
+        portal1: {
+          x: 12047,
+          y: 6038,
+        },
+        portal2: {
+          x: 8802,
+          y: 4297,
+        },
+      },
+    ],
+  },
 
   // Victory Road
   {

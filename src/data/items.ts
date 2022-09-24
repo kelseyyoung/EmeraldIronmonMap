@@ -457,6 +457,11 @@ export const items: ItemData[] = [
     y: 1111,
     type: ItemType.Hidden,
   },
+  {
+    x: 755,
+    y: 295,
+    type: ItemType.Normal,
+  },
 
   // Meteor Falls
   {
@@ -468,6 +473,11 @@ export const items: ItemData[] = [
     x: 672,
     y: 1669,
     type: ItemType.Normal,
+  },
+  {
+    x: 674,
+    y: 1509,
+    type: ItemType.TM,
   },
 
   // Jagged Pass
@@ -652,6 +662,16 @@ export const items: ItemData[] = [
     y: 1418,
     type: ItemType.Normal,
   },
+  {
+    x: 4786,
+    y: 279,
+    type: ItemType.Normal,
+  },
+  {
+    x: 4608,
+    y: 488,
+    type: ItemType.Normal,
+  },
 
   // Rt 120
   {
@@ -734,6 +754,48 @@ export const items: ItemData[] = [
   {
     x: 7282,
     y: 1638,
+    type: ItemType.Normal,
+  },
+
+  // Safari Zone
+  {
+    x: 6408,
+    y: 1266,
+    type: ItemType.Normal,
+  },
+  {
+    x: 7158,
+    y: 129,
+    type: ItemType.Normal,
+  },
+  {
+    x: 8022,
+    y: 114,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 8180,
+    y: 594,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 8182,
+    y: 914,
+    type: ItemType.Normal,
+  },
+  {
+    x: 8198,
+    y: 1201,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 7990,
+    y: 1249,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 7812,
+    y: 307,
     type: ItemType.Normal,
   },
 
@@ -1114,6 +1176,102 @@ export const items: ItemData[] = [
   {
     x: 12548,
     y: 5914,
+    type: ItemType.Hidden,
+  },
+
+  // Abandoned Ship
+  {
+    x: 2252,
+    y: 5378,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2433,
+    y: 4887,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2152,
+    y: 5758,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2990,
+    y: 5726,
+    type: ItemType.Normal,
+  },
+  {
+    x: 3168,
+    y: 5708,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 2510,
+    y: 5743,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 2578,
+    y: 5727,
+    type: ItemType.TM,
+  },
+  {
+    x: 2514,
+    y: 5363,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 3155,
+    y: 5396,
+    type: ItemType.Normal,
+  },
+
+  // Seafloor Cavern
+  {
+    x: 10222,
+    y: 3761,
+    type: ItemType.TM,
+  },
+
+  // Victory Road
+  {
+    x: 12191,
+    y: 2753,
+    type: ItemType.Normal,
+  },
+  {
+    x: 12061,
+    y: 1864,
+    type: ItemType.Normal,
+  },
+  {
+    x: 12142,
+    y: 1318,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 12224,
+    y: 1946,
+    type: ItemType.TM,
+  },
+  {
+    x: 12000,
+    y: 1381,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 11758,
+    y: 1431,
+    type: ItemType.Normal,
+  },
+  {
+    x: 12141,
+    y: 2958,
+    type: ItemType.Normal,
+  },
+  {
+    x: 12030,
+    y: 2959,
     type: ItemType.Hidden,
   },
 ];
