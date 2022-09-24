@@ -1264,6 +1264,174 @@ export const portalGroups: MapPortalGroup[] = [
     ],
   },
 
+  // Underwater
+  {
+    color: "#03DAF8",
+    area: "Underwater",
+    portals: [
+      {
+        portal1: {
+          x: 9174,
+          y: 1678,
+        },
+        portal2: {
+          x: 9078,
+          y: 5519,
+        },
+      },
+      {
+        portal1: {
+          x: 9672,
+          y: 1725,
+        },
+        portal2: {
+          x: 9568,
+          y: 5573,
+        },
+      },
+      {
+        portal1: {
+          x: 9029,
+          y: 5057,
+        },
+        portal2: {
+          x: 9127,
+          y: 1213,
+        },
+      },
+      {
+        portal1: {
+          x: 10008,
+          y: 1676,
+        },
+        portal2: {
+          x: 9913,
+          y: 5520,
+        },
+      },
+      {
+        portal1: {
+          x: 9913,
+          y: 5313,
+        },
+        portal2: {
+          x: 10010,
+          y: 1471,
+        },
+      },
+      {
+        portal1: {
+          x: 10056,
+          y: 1309,
+        },
+        portal2: {
+          x: 9960,
+          y: 5154,
+        },
+      },
+      {
+        portal1: {
+          x: 10088,
+          y: 2174,
+        },
+        portal2: {
+          x: 10008,
+          y: 6019,
+        },
+      },
+      {
+        portal1: {
+          x: 9878,
+          y: 5819,
+        },
+        portal2: {
+          x: 9975,
+          y: 1981,
+        },
+      },
+      {
+        portal1: {
+          x: 9849,
+          y: 2074,
+        },
+        portal2: {
+          x: 9749,
+          y: 5918,
+        },
+      },
+      {
+        portal1: {
+          x: 9701,
+          y: 6143,
+        },
+        portal2: {
+          x: 9798,
+          y: 2300,
+        },
+      },
+      {
+        portal1: {
+          x: 9385,
+          y: 2460,
+        },
+        portal2: {
+          x: 10570,
+          y: 5023,
+        },
+      },
+      {
+        portal1: {
+          x: 10317,
+          y: 5039,
+        },
+        portal2: {
+          x: 9127,
+          y: 2477,
+        },
+      },
+      {
+        portal1: {
+          x: 11336,
+          y: 3310,
+        },
+        portal2: {
+          x: 12534,
+          y: 5237,
+        },
+      },
+      {
+        portal1: {
+          x: 12601,
+          y: 5138,
+        },
+        portal2: {
+          x: 11399,
+          y: 3213,
+        },
+      },
+      {
+        portal1: {
+          x: 9113,
+          y: 3516,
+        },
+        portal2: {
+          x: 10301,
+          y: 6079,
+        },
+      },
+      {
+        portal1: {
+          x: 10843,
+          y: 3996,
+        },
+        portal2: {
+          x: 12011,
+          y: 5918,
+        },
+      },
+    ],
+  },
+
   // TODO: Seafloor Cavern
 
   // Victory Road

@@ -906,4 +906,214 @@ export const items: ItemData[] = [
     y: 3676,
     type: ItemType.Normal,
   },
+
+  // Aqua Hideout
+  {
+    x: 9426,
+    y: 950,
+    type: ItemType.Normal,
+  },
+  {
+    x: 9202,
+    y: 917,
+    type: ItemType.Normal,
+  },
+  {
+    x: 9202,
+    y: 901,
+    type: ItemType.Normal,
+  },
+  {
+    x: 9830,
+    y: 965,
+    type: ItemType.Normal,
+  },
+
+  // Rt 124
+  {
+    x: 9408,
+    y: 1333,
+    type: ItemType.Normal,
+  },
+  {
+    x: 9896,
+    y: 1322,
+    type: ItemType.Normal,
+  },
+
+  // Rt 125
+  {
+    x: 10976,
+    y: 1416,
+    type: ItemType.Normal,
+  },
+
+  // Shoal Cave
+
+  // High Tide
+  {
+    x: 11445,
+    y: 226,
+    type: ItemType.Normal,
+  },
+  {
+    x: 11508,
+    y: 629,
+    type: ItemType.Normal,
+  },
+
+  // Mossdeep City
+  {
+    x: 11234,
+    y: 2343,
+    type: ItemType.Normal,
+  },
+
+  // Rt 126
+  {
+    x: 9187,
+    y: 2443,
+    type: ItemType.Normal,
+  },
+
+  // Rt 127
+  {
+    x: 10466,
+    y: 2521,
+    type: ItemType.Normal,
+  },
+  {
+    x: 10450,
+    y: 2745,
+    type: ItemType.Normal,
+  },
+  {
+    x: 11031,
+    y: 3848,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 11266,
+    y: 3047,
+    type: ItemType.Normal,
+  },
+
+  // Rt 132
+  {
+    x: 6562,
+    y: 4523,
+    type: ItemType.Normal,
+  },
+  {
+    x: 4636,
+    y: 4620,
+    type: ItemType.Normal,
+  },
+  {
+    x: 6721,
+    y: 4775,
+    type: ItemType.Normal,
+  },
+  {
+    x: 4194,
+    y: 4781,
+    type: ItemType.Normal,
+  },
+
+  // Underwater
+  {
+    x: 9089,
+    y: 5626,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 9586,
+    y: 5562,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 9538,
+    y: 5066,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 9923,
+    y: 5530,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 11987,
+    y: 5501,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 11633,
+    y: 5051,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 10630,
+    y: 5257,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 10327,
+    y: 5610,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 10310,
+    y: 5562,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 10343,
+    y: 5545,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 11191,
+    y: 5946,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 11158,
+    y: 5290,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 9986,
+    y: 6009,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 9890,
+    y: 5849,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 12242,
+    y: 4925,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 12594,
+    y: 4670,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 10295,
+    y: 6218,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 12050,
+    y: 5930,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 12548,
+    y: 5914,
+    type: ItemType.Hidden,
+  },
 ];
