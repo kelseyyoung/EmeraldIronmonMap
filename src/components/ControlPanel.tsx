@@ -4,7 +4,6 @@ import PokeBall from "../assets/PokeballItem.png";
 import TMItem from "../assets/TMItem.png";
 import HiddenItem from "../assets/HiddenItem.png";
 import TrainerDemo from "../assets/demoGifs/TrainerDemo.gif";
-import ItemDemo from "../assets/demoGifs/ItemDemo.gif";
 import PortalClickDemo from "../assets/demoGifs/PortalClickDemo.gif";
 import MapPortalsDemo from "../assets/demoGifs/MapPortalsDemo.gif";
 import { Dialog, DialogTitle, Icon } from "@mui/material";
@@ -18,7 +17,6 @@ import {
 export const ControlPanel = () => {
   const {
     showTrainerData,
-    showItemData,
     highlightItems,
     highlightTMs,
     highlightHiddenItems,
@@ -29,7 +27,6 @@ export const ControlPanel = () => {
   } = useAppSelector((state) => state.settings);
   const {
     setShowTrainerData,
-    setShowItemData,
     setHighlightItems,
     setHighlightTMs,
     setHighlightHiddenItems,
@@ -69,7 +66,7 @@ export const ControlPanel = () => {
             <Icon fontSize="small">{collapsed ? "add" : "remove"}</Icon>
           </button>
         </div>
-        <div className="control-panel-subtitle">Trainer/Item Info</div>
+        <div className="control-panel-subtitle">Trainer Info</div>
         <div className="checkbox-group">
           <label className="checkbox-label">
             <input
@@ -78,16 +75,6 @@ export const ControlPanel = () => {
               onChange={() => dispatch(setShowTrainerData(!showTrainerData))}
             />
             Show Trainer Data
-          </label>
-        </div>
-        <div className="checkbox-group">
-          <label className="checkbox-label">
-            <input
-              type="checkbox"
-              checked={showItemData}
-              onChange={() => dispatch(setShowItemData(!showItemData))}
-            />
-            Show Item Data
           </label>
         </div>
         <div className="control-panel-subtitle">Highlight Items</div>
@@ -181,12 +168,13 @@ export const ControlPanel = () => {
             Hover
           </label>
         </div>
-        <div className="control-panel-subtitle">Routes</div>
+        <div className="control-panel-subtitle">Routes (Coming Soon)</div>
         <div className="checkbox-group">
-          <label className="checkbox-label">
+          <label className="checkbox-label disabled">
             <input
               type="checkbox"
               checked={showRoutes}
+              disabled
               onChange={() => dispatch(setShowRoutes(!showRoutes))}
             />
             Show Routes
@@ -226,13 +214,6 @@ export const ControlPanel = () => {
           </div>
         </div>
         <div className="dialog-text">
-          Items are also clickable/markable, and hidden items with step spawn
-          rates have that information shown on hover
-          <div className="demo-gif">
-            <img src={ItemDemo} />
-          </div>
-        </div>
-        <div className="dialog-text">
           Map "portals", like cave entrances and ladders, are clickable too!
           They will move the map to where it connects
           <div className="demo-gif">
@@ -253,9 +234,17 @@ export const ControlPanel = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://www.vgmaps.com/Atlas/GBA/index.htm#PokemonFireRedVersion"
+              href="https://www.vgmaps.com/Atlas/GBA/index.htm#PokemonEmeraldVersion"
             >
               VGMaps
+            </a>{" "}
+            and{" "}
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://bulbapedia.bulbagarden.net/wiki/Main_Page"
+            >
+              Bulbapedia
             </a>
           </div>
           <div>
@@ -263,7 +252,7 @@ export const ControlPanel = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://www.spriters-resource.com/game_boy_advance/pokemonfireredleafgreen/"
+              href="https://www.spriters-resource.com/game_boy_advance/pokemonemerald/"
             >
               The Spriters Resource
             </a>
@@ -273,14 +262,14 @@ export const ControlPanel = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://imgur.com/a/vw7y5mp"
+              href="https://imgur.com/gallery/sdVDY2N"
             >
               these
             </a>{" "}
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://imgur.com/a/DnDEi9i"
+              href="https://imgur.com/SmNVo88"
             >
               two
             </a>{" "}
@@ -326,6 +315,16 @@ export const ControlPanel = () => {
             Github
           </a>{" "}
           or contact me on Discord (kelsey#8920)
+        </div>
+        <div className="dialog-text">
+          Looking for other Ironmon Maps? Check out the one for{" "}
+          <a
+            rel="noreferrer"
+            href="https://kelseyyoung.github.io/FRLGIronmonMap"
+            target="_blank"
+          >
+            FireRed/LeafGreen
+          </a>
         </div>
       </Dialog>
     </>

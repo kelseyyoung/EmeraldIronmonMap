@@ -131,4 +131,5 @@
 
 .control-panel label.disabled {
   opacity: 0.4;
+  cursor: not-allowed;
 }
