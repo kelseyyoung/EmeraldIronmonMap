@@ -53,13 +53,13 @@ export const items: ItemData[] = [
 
   // Rt 104
   {
-    x: 1299,
-    y: 4278,
+    x: 248,
+    y: 4236,
     type: ItemType.Hidden,
   },
   {
     x: 247,
-    y: 4090,
+    y: 4105,
     type: ItemType.Hidden,
   },
   {
@@ -258,7 +258,7 @@ export const items: ItemData[] = [
   },
   {
     x: 899,
-    y: 2300,
+    y: 5300,
     type: ItemType.Normal,
   },
   {
@@ -407,7 +407,6 @@ export const items: ItemData[] = [
   },
 
   // Rt 113
-  // TODO: there is a TM here https://bulbapedia.bulbagarden.net/wiki/Appendix:Emerald_walkthrough/Section_6
   {
     x: 2658,
     y: 248,
@@ -432,6 +431,11 @@ export const items: ItemData[] = [
     x: 2770,
     y: 247,
     type: ItemType.Hidden,
+  },
+  {
+    x: 1953,
+    y: 280,
+    type: ItemType.TM,
   },
 
   // Fallabor Town
@@ -510,15 +514,18 @@ export const items: ItemData[] = [
   },
 
   // Fiery Path
-  // TODO: there is a TM here
   {
     x: 2811,
     y: 2012,
     type: ItemType.Normal,
   },
+  {
+    x: 2832,
+    y: 1556,
+    type: ItemType.TM,
+  },
 
   // Desert
-  // TODO: there is a TM here
   {
     x: 3394,
     y: 1063,
@@ -538,6 +545,11 @@ export const items: ItemData[] = [
     x: 3618,
     y: 1319,
     type: ItemType.Hidden,
+  },
+  {
+    x: 3730,
+    y: 1864,
+    type: ItemType.TM,
   },
 
   // Rt 105
@@ -670,6 +682,11 @@ export const items: ItemData[] = [
   {
     x: 4608,
     y: 488,
+    type: ItemType.Normal,
+  },
+  {
+    x: 4531,
+    y: 1094,
     type: ItemType.Normal,
   },
 
@@ -1060,10 +1077,10 @@ export const items: ItemData[] = [
     type: ItemType.Normal,
   },
 
-  // Rt 132
+  // Rt 132/133/134
   {
-    x: 6562,
-    y: 4523,
+    x: 6560,
+    y: 4520,
     type: ItemType.Normal,
   },
   {
@@ -1079,6 +1096,21 @@ export const items: ItemData[] = [
   {
     x: 4194,
     y: 4781,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5968,
+    y: 4538,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5248,
+    y: 4502,
+    type: ItemType.Normal,
+  },
+  {
+    x: 5890,
+    y: 4792,
     type: ItemType.Normal,
   },
 
@@ -1178,6 +1210,11 @@ export const items: ItemData[] = [
     y: 5914,
     type: ItemType.Hidden,
   },
+  {
+    x: 9539,
+    y: 5802,
+    type: ItemType.Hidden,
+  },
 
   // Abandoned Ship
   {
@@ -1223,6 +1260,16 @@ export const items: ItemData[] = [
   {
     x: 3155,
     y: 5396,
+    type: ItemType.Normal,
+  },
+  {
+    x: 2817,
+    y: 5412,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 2751,
+    y: 5710,
     type: ItemType.Normal,
   },
 
@@ -1274,4 +1321,7 @@ export const items: ItemData[] = [
     y: 2959,
     type: ItemType.Hidden,
   },
+
+  // TODO: Artisan Cave/Battle Frontier items
+  // TODO: S.S. Tidal Items
 ];

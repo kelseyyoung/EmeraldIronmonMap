@@ -479,8 +479,8 @@ export const portalGroups: MapPortalGroup[] = [
           y: 5752,
         },
         portal2: {
-          x: 2649,
-          y: 5876,
+          x: 2763,
+          y: 5894,
         },
       },
       {
@@ -495,8 +495,8 @@ export const portalGroups: MapPortalGroup[] = [
       },
       {
         portal1: {
-          x: 2763,
-          y: 5894,
+          x: 2340,
+          y: 5866,
         },
         portal2: {
           x: 2741,
@@ -506,7 +506,24 @@ export const portalGroups: MapPortalGroup[] = [
     ],
   },
 
-  // TODO: Slateport Museum
+  // Slateport Museum
+  {
+    color: "#0A09F6",
+    area: "Slateport Museum",
+    portals: [
+      // Entrance
+      {
+        portal1: {
+          x: 3689,
+          y: 4773,
+        },
+        portal2: {
+          x: 3853,
+          y: 4713,
+        },
+      },
+    ],
+  },
 
   // Trick Room
   {
@@ -593,7 +610,16 @@ export const portalGroups: MapPortalGroup[] = [
           y: 1083,
         },
       },
-
+      {
+        portal1: {
+          x: 1494,
+          y: 522,
+        },
+        portal2: {
+          x: 2090,
+          y: 1159,
+        },
+      },
       // Exit
       {
         portal1: {
@@ -791,7 +817,6 @@ export const portalGroups: MapPortalGroup[] = [
           y: 1548,
         },
         portal2: {
-          // TODO: change
           x: 2322,
           y: 2366,
         },
@@ -817,7 +842,7 @@ export const portalGroups: MapPortalGroup[] = [
         },
       },
 
-      // Exit
+      // Steven's Cave
       {
         portal1: {
           x: 702,
@@ -826,6 +851,18 @@ export const portalGroups: MapPortalGroup[] = [
         portal2: {
           x: 2239,
           y: 2073,
+        },
+      },
+
+      // Exit
+      {
+        portal1: {
+          x: 429,
+          y: 1423,
+        },
+        portal2: {
+          x: 731,
+          y: 2075,
         },
       },
     ],
@@ -1155,7 +1192,7 @@ export const portalGroups: MapPortalGroup[] = [
           y: 1440,
         },
         portal2: {
-          x: 11134,
+          x: 11340,
           y: 1062,
         },
       },
@@ -1459,10 +1496,12 @@ export const portalGroups: MapPortalGroup[] = [
           y: 4297,
         },
       },
+      // TODO: rest of portals
     ],
   },
 
   // Victory Road
+  // TODO: these portals might be slightly off
   {
     color: "#c97d18",
     area: "Victory Road",
