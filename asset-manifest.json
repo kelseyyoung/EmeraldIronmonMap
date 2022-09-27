@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EmeraldIronmonMap/static/css/main.71fff1b4.css",
-    "main.js": "/EmeraldIronmonMap/static/js/main.4878acd2.js",
+    "main.css": "/EmeraldIronmonMap/static/css/main.16568bb1.css",
+    "main.js": "/EmeraldIronmonMap/static/js/main.e8532da3.js",
     "static/media/FullHoenn.webp": "/EmeraldIronmonMap/static/media/FullHoenn.4290922485fc11e86e35.webp",
     "static/media/MapPortalsDemo.gif": "/EmeraldIronmonMap/static/media/MapPortalsDemo.dd8aa90ec2c2f21f9679.gif",
     "static/media/PortalClickDemo.gif": "/EmeraldIronmonMap/static/media/PortalClickDemo.a893001de870427cc2bf.gif",
@@ -10,11 +10,11 @@
     "static/media/star.png": "/EmeraldIronmonMap/static/media/star.8ee1f0879d78a0f695bf.png",
     "static/media/checkmark.png": "/EmeraldIronmonMap/static/media/checkmark.d3a535b4929ab14365bf.png",
     "index.html": "/EmeraldIronmonMap/index.html",
-    "main.71fff1b4.css.map": "/EmeraldIronmonMap/static/css/main.71fff1b4.css.map",
-    "main.4878acd2.js.map": "/EmeraldIronmonMap/static/js/main.4878acd2.js.map"
+    "main.16568bb1.css.map": "/EmeraldIronmonMap/static/css/main.16568bb1.css.map",
+    "main.e8532da3.js.map": "/EmeraldIronmonMap/static/js/main.e8532da3.js.map"
   },
   "entrypoints": [
-    "static/css/main.71fff1b4.css",
-    "static/js/main.4878acd2.js"
+    "static/css/main.16568bb1.css",
+    "static/js/main.e8532da3.js"
   ]
 }
