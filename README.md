@@ -10,10 +10,6 @@ Trainer information is available on hover, showing the number of pokemon they ha
 
 ![Trainer Demo](./src/assets/demoGifs/TrainerDemo.gif)
 
-Items are also clickable/markable, and hidden items with step spawn rates have that information shown on hover
-
-![Item Demo](./src/assets/demoGifs/ItemDemo.gif)
-
 Map "portals", like cave entrances and ladders, are clickable too! They will move the map to where it connects
 
 ![Map Portal Click Demo](./src/assets/demoGifs/PortalClickDemo.gif)
@@ -31,3 +27,7 @@ You can highlight all map portals via the Control Panel with various display opt
 ## Found an issue? Want to suggest a feature?
 
 This is very much still a work in progress so there are sure to be bugs/missing data. The best way to file an issue is on [Github](https://github.com/kelseyyoung/EmeraldIronmonMap/issues) or contact me on Discord (kelsey#8920)
+
+## Looking for other Ironmon Maps?
+
+[FireRed/LeafGreen](https://kelseyyoung.github.io/FRLGIronmonMap)
