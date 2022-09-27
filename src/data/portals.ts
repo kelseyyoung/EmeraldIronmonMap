@@ -1465,12 +1465,140 @@ export const portalGroups: MapPortalGroup[] = [
           y: 4297,
         },
       },
-      // TODO: rest of portals
+      {
+        portal1: {
+          x: 8816,
+          y: 4030,
+        },
+        portal2: {
+          x: 9204,
+          y: 3928,
+        },
+      },
+      {
+        portal1: {
+          x: 8994,
+          y: 4221,
+        },
+        portal2: {
+          x: 8785,
+          y: 3687,
+        },
+      },
+      {
+        portal1: {
+          x: 8833,
+          y: 3961,
+        },
+        portal2: {
+          x: 9189,
+          y: 4155,
+        },
+      },
+      {
+        portal1: {
+          x: 8961,
+          y: 3880,
+        },
+        portal2: {
+          x: 9108,
+          y: 4012,
+        },
+      },
+      {
+        portal1: {
+          x: 9141,
+          y: 3817,
+        },
+        portal2: {
+          x: 9388,
+          y: 4049,
+        },
+      },
+      {
+        portal1: {
+          x: 9109,
+          y: 3977,
+        },
+        portal2: {
+          x: 9254,
+          y: 4011,
+        },
+      },
+      {
+        portal1: {
+          x: 9204,
+          y: 4252,
+        },
+        portal2: {
+          x: 8828,
+          y: 4297,
+        },
+      },
+      {
+        portal1: {
+          x: 9221,
+          y: 3814,
+        },
+        portal2: {
+          x: 9515,
+          y: 4424,
+        },
+      },
+      {
+        portal1: {
+          x: 9564,
+          y: 4202,
+        },
+        portal2: {
+          x: 8852,
+          y: 4297,
+        },
+      },
+      {
+        portal1: {
+          x: 9402,
+          y: 4088,
+        },
+        portal2: {
+          x: 9794,
+          y: 4277,
+        },
+      },
+      {
+        portal1: {
+          x: 9418,
+          y: 3682,
+        },
+        portal2: {
+          x: 9875,
+          y: 4244,
+        },
+      },
+      {
+        portal1: {
+          x: 9859,
+          y: 4037,
+        },
+        portal2: {
+          x: 9854,
+          y: 3993,
+        },
+      },
+      {
+        portal1: {
+          x: 9852,
+          y: 3818,
+        },
+        portal2: {
+          x: 10075,
+          y: 3751,
+        },
+      },
     ],
   },
 
   // Victory Road
-  // TODO: these portals might be slightly off
   {
     color: "#c97d18",
     area: "Victory Road",
@@ -1493,24 +1621,24 @@ export const portalGroups: MapPortalGroup[] = [
           y: 2553,
         },
         portal2: {
-          x: 11692,
-          y: 1878,
+          x: 11677,
+          y: 1861,
         },
       },
       {
         portal1: {
-          x: 12043,
-          y: 2230,
+          x: 12026,
+          y: 2215,
         },
         portal2: {
-          x: 12043,
-          y: 1700,
+          x: 12026,
+          y: 1698,
         },
       },
       {
         portal1: {
-          x: 12236,
-          y: 2230,
+          x: 12221,
+          y: 2214,
         },
         portal2: {
           x: 12219,
@@ -1519,28 +1647,28 @@ export const portalGroups: MapPortalGroup[] = [
       },
       {
         portal1: {
-          x: 11870,
-          y: 1505,
+          x: 11818,
+          y: 2071,
         },
         portal2: {
-          x: 11836,
-          y: 2084,
+          x: 11853,
+          y: 1491,
         },
       },
       {
         portal1: {
-          x: 11643,
-          y: 2245,
+          x: 11627,
+          y: 2231,
         },
         portal2: {
-          x: 11644,
-          y: 1715,
+          x: 11628,
+          y: 1713,
         },
       },
       {
         portal1: {
-          x: 11881,
-          y: 2163,
+          x: 11865,
+          y: 2147,
         },
         portal2: {
           x: 11884,
