@@ -1,37 +1,6 @@
-import { BoundingBoxCoords } from "./trainers";
-
-export interface MapPortalData {
-  portal1: BoundingBoxCoords;
-  portal2: BoundingBoxCoords;
-}
-
-export type MapPortalGroup = {
-  color: string;
-  area: string;
-  portals: MapPortalData[];
-};
+import { MapPortalGroup } from "../IronmonMapUtils";
 
 export const defaultPortalSize = 24;
-
-/**
- *   
-  {
-    color: "",
-    area: "",
-    portals: [
-      {
-        portal1: {
-          x: 0,
-          y: 0,
-        },
-        portal2: {
-          x: 0,
-          y: 0,
-        },
-      },
-    ],
-  },
- */
 
 export const portalGroups: MapPortalGroup[] = [
   // Petalburg Woods

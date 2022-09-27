@@ -2,9 +2,19 @@ import React from "react";
 import "./EmeraldIronmonMap.css";
 import FullHoenn from "./assets/FullHoenn.webp";
 import { MapInteractionCSS } from "react-map-interaction";
-import { ControlPanel, Trainer, Item, MapPortal } from "./components";
-import { BoundingBoxCoords, items, trainers, portalGroups } from "./data";
-import { useAppSelector } from "./state";
+import { ControlPanel } from "./components";
+import {
+  items,
+  trainers,
+  portalGroups,
+  defaultTrainerHeight,
+  defaultTrainerWidth,
+  defaultItemHeight,
+  defaultItemWidth,
+  defaultPortalSize,
+} from "./data";
+import { useAppSelector } from "./IronmonMapUtils/state";
+import { BoundingBoxCoords, Item, MapPortal, Trainer } from "./IronmonMapUtils";
 
 export const DEBUG_MODE = false;
 
@@ -52,28 +62,47 @@ export const EmeraldIronmonMap = () => {
         }}
         maxScale={100}
       >
-        <div id="tooltip-container"></div>
-        <div id="portal-label-container"></div>
+        <div
+          id="portal-label-container"
+          className="react-portal-container"
+        ></div>
+        <div id="tooltip-container" className="react-portal-container"></div>
+        {/* TODO: can we get the height and width from the image? Think "FullKanto" is just the string though */}
+        {/* if so, then put into variables */}
+        <img
+          width="12800"
+          height="6325"
+          src={FullHoenn}
+          alt="Full Hoenn"
+          className="pixelated full-map-img"
+        ></img>
         <svg
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
           width="12800"
           height="6325"
+          className="svg-container"
         >
-          {/* TODO: can we get the height and width from the image? Think "FullKanto" is just the string though */}
-          {/* if so, then put into variables */}
-          <image width="12800" height="6325" xlinkHref={FullHoenn}></image>
           {trainers.map((trainer, index) => {
             return (
               <Trainer
                 key={trainer.name.split(" ").join("") + "-" + index}
+                height={defaultTrainerHeight}
+                width={defaultTrainerWidth}
                 {...trainer}
               />
             );
           })}
           {items.map((item, index) => {
-            return <Item key={"item-" + index} {...item} />;
+            return (
+              <Item
+                key={"item-" + index}
+                height={defaultItemHeight}
+                width={defaultItemWidth}
+                {...item}
+              />
+            );
           })}
           {portalGroups.map((portalGroup) => {
             return portalGroup.portals.map((portal, portalIndex) => (
@@ -83,6 +112,7 @@ export const EmeraldIronmonMap = () => {
                 scale={mapData.scale}
                 offsetMapCoords={offsetMapCoords}
                 color={portalGroup.color}
+                size={defaultPortalSize}
                 {...portal}
               />
             ));
