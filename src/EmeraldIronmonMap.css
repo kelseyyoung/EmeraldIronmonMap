@@ -23,3 +23,11 @@
 .full-map-img.pixelated {
   image-rendering: pixelated;
 }
+
+.routes-visible {
+  display: block;
+}
+
+.routes-hidden {
+  display: none;
+}

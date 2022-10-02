@@ -168,13 +168,12 @@ export const ControlPanel = () => {
             Hover
           </label>
         </div>
-        <div className="control-panel-subtitle">Routes (Coming Soon)</div>
+        <div className="control-panel-subtitle">Routes</div>
         <div className="checkbox-group">
-          <label className="checkbox-label disabled">
+          <label className="checkbox-label">
             <input
               type="checkbox"
               checked={showRoutes}
-              disabled
               onChange={() => dispatch(setShowRoutes(!showRoutes))}
             />
             Show Routes
@@ -274,6 +273,9 @@ export const ControlPanel = () => {
               two
             </a>{" "}
             imgur albums, from the Ironmon community
+          </div>
+          <div>
+            Special thanks to Profesor-Caos for helping fill in missing data
           </div>
         </div>
         <div className="dialog-text">

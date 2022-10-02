@@ -1010,7 +1010,7 @@ export const portalGroups: MapPortalGroup[] = [
           y: 1072,
         },
         portal2: {
-          x: 9679,
+          x: 9678,
           y: 799,
         },
       },
@@ -1096,6 +1096,16 @@ export const portalGroups: MapPortalGroup[] = [
       },
       {
         portal1: {
+          x: 9678,
+          y: 833,
+        },
+        portal2: {
+          x: 9662,
+          y: 770,
+        },
+      },
+      {
+        portal1: {
           x: 9725,
           y: 833,
         },
@@ -1106,11 +1116,11 @@ export const portalGroups: MapPortalGroup[] = [
       },
       {
         portal1: {
-          x: 9677,
+          x: 9678,
           y: 896,
         },
         portal2: {
-          x: 9677,
+          x: 9678,
           y: 961,
         },
       },
@@ -1126,6 +1136,16 @@ export const portalGroups: MapPortalGroup[] = [
       },
       {
         portal1: {
+          x: 9726,
+          y: 961,
+        },
+        portal2: {
+          x: 9692,
+          y: 770,
+        },
+      },
+      {
+        portal1: {
           x: 9631,
           y: 1024,
         },
@@ -1134,7 +1154,26 @@ export const portalGroups: MapPortalGroup[] = [
           y: 913,
         },
       },
-      // TODO: how to deal with rest of pads
+      {
+        portal1: {
+          x: 9678,
+          y: 1024,
+        },
+        portal2: {
+          x: 9678,
+          y: 925,
+        },
+      },
+      {
+        portal1: {
+          x: 10290,
+          y: 1073,
+        },
+        portal2: {
+          x: 9484,
+          y: 816,
+        },
+      },
     ],
   },
 
@@ -1318,6 +1357,36 @@ export const portalGroups: MapPortalGroup[] = [
       },
       {
         portal1: {
+          x: 9444,
+          y: 1644,
+        },
+        portal2: {
+          x: 9348,
+          y: 5484,
+        },
+      },
+      {
+        portal1: {
+          x: 9347,
+          y: 6034,
+        },
+        portal2: {
+          x: 9447,
+          y: 2189,
+        },
+      },
+      {
+        portal1: {
+          x: 9128,
+          y: 2124,
+        },
+        portal2: {
+          x: 9026,
+          y: 5967,
+        },
+      },
+      {
+        portal1: {
           x: 10008,
           y: 1676,
         },
@@ -1444,6 +1513,56 @@ export const portalGroups: MapPortalGroup[] = [
         portal2: {
           x: 12011,
           y: 5918,
+        },
+      },
+      {
+        portal1: {
+          x: 11655,
+          y: 5056,
+        },
+        portal2: {
+          x: 10453,
+          y: 3125,
+        },
+      },
+      {
+        portal1: {
+          x: 11926,
+          y: 5494,
+        },
+        portal2: {
+          x: 10743,
+          y: 3532,
+        },
+      },
+      {
+        portal1: {
+          x: 12241,
+          y: 4967,
+        },
+        portal2: {
+          x: 11035,
+          y: 3063,
+        },
+      },
+      {
+        portal1: {
+          x: 12580,
+          y: 4601,
+        },
+        portal2: {
+          x: 11382,
+          y: 2644,
+        },
+      },
+      {
+        portal1: {
+          x: 12596,
+          y: 5948,
+        },
+        portal2: {
+          x: 11404,
+          y: 4022,
         },
       },
     ],
@@ -1643,6 +1762,16 @@ export const portalGroups: MapPortalGroup[] = [
         portal2: {
           x: 12219,
           y: 2938,
+        },
+      },
+      {
+        portal1: {
+          x: 12236,
+          y: 1328,
+        },
+        portal2: {
+          x: 12219,
+          y: 1847,
         },
       },
       {

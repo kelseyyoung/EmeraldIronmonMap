@@ -2006,6 +2006,20 @@ export const trainers: TrainerData[] = [
     name: "Magma Grunt",
     numPokemon: 1,
     pokemonLevels: [47],
+    x: 5411,
+    y: 3540,
+  },
+  {
+    name: "Magma Grunt",
+    numPokemon: 1,
+    pokemonLevels: [47],
+    x: 5425,
+    y: 3477,
+  },
+  {
+    name: "Magma Grunt",
+    numPokemon: 1,
+    pokemonLevels: [47],
     x: 5863,
     y: 3196,
   },
@@ -2600,6 +2614,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [54],
     x: 8148,
     y: 4692,
+    spinner: true,
   },
   {
     name: "Sis and Bro Reli & Ian",
@@ -2701,6 +2716,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [53, 53],
     x: 6015,
     y: 4580,
+    spinner: true,
   },
   {
     name: "Swimmer Linda",
@@ -2802,6 +2818,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [54],
     x: 4849,
     y: 4560,
+    spinner: true,
   },
 
   // Abandoned Ship

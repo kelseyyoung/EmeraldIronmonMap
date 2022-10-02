@@ -678,6 +678,11 @@ export const items: ItemData[] = [
     y: 1094,
     type: ItemType.Normal,
   },
+  {
+    x: 4946,
+    y: 1050,
+    type: ItemType.Normal,
+  },
 
   // Rt 120
   {
@@ -803,6 +808,11 @@ export const items: ItemData[] = [
     x: 7812,
     y: 307,
     type: ItemType.Normal,
+  },
+  {
+    x: 6933,
+    y: 146,
+    type: ItemType.TM,
   },
 
   // Lilycove City
@@ -1028,6 +1038,23 @@ export const items: ItemData[] = [
     x: 11508,
     y: 629,
     type: ItemType.Normal,
+  },
+
+  // Low Tide
+  {
+    x: 12055,
+    y: 571,
+    type: ItemType.Normal,
+  },
+  {
+    x: 12463,
+    y: 489,
+    type: ItemType.Normal,
+  },
+  {
+    x: 12461,
+    y: 280,
+    type: ItemType.TM,
   },
 
   // Mossdeep City
