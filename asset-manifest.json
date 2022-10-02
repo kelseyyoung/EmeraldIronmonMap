@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/EmeraldIronmonMap/static/css/main.16568bb1.css",
-    "main.js": "/EmeraldIronmonMap/static/js/main.e8532da3.js",
-    "static/media/FullHoenn.webp": "/EmeraldIronmonMap/static/media/FullHoenn.4290922485fc11e86e35.webp",
+    "main.css": "/EmeraldIronmonMap/static/css/main.5c599836.css",
+    "main.js": "/EmeraldIronmonMap/static/js/main.a1729799.js",
+    "static/media/FullHoenn.webp": "/EmeraldIronmonMap/static/media/FullHoenn.ba9871f6820d3f9ab20f.webp",
     "static/media/MapPortalsDemo.gif": "/EmeraldIronmonMap/static/media/MapPortalsDemo.dd8aa90ec2c2f21f9679.gif",
     "static/media/PortalClickDemo.gif": "/EmeraldIronmonMap/static/media/PortalClickDemo.a893001de870427cc2bf.gif",
     "static/media/TrainerDemo.gif": "/EmeraldIronmonMap/static/media/TrainerDemo.23bc8b2935461fb596ba.gif",
+    "static/media/MagmaHideoutRoute.webp": "/EmeraldIronmonMap/static/media/MagmaHideoutRoute.c323c0e96d9ad030fe53.webp",
     "static/media/pokeball.png": "/EmeraldIronmonMap/static/media/pokeball.a423f307223251ab7bff.png",
     "static/media/star.png": "/EmeraldIronmonMap/static/media/star.8ee1f0879d78a0f695bf.png",
+    "static/media/VictoryRoadRoute.webp": "/EmeraldIronmonMap/static/media/VictoryRoadRoute.baa20c04fa2cd578dd03.webp",
     "static/media/checkmark.png": "/EmeraldIronmonMap/static/media/checkmark.d3a535b4929ab14365bf.png",
+    "static/media/CurrentsRoute.webp": "/EmeraldIronmonMap/static/media/CurrentsRoute.b5c4fbd3b5b54b6d3ca9.webp",
+    "static/media/SeafloorCavernRoute.webp": "/EmeraldIronmonMap/static/media/SeafloorCavernRoute.9a29c01eae6840d7fa4d.webp",
+    "static/media/AquaHideoutRoute.webp": "/EmeraldIronmonMap/static/media/AquaHideoutRoute.50800119cbc6edbe3c37.webp",
+    "static/media/NewMauvilleRoute.webp": "/EmeraldIronmonMap/static/media/NewMauvilleRoute.7887217e3be05093be24.webp",
+    "static/media/GraniteCaveRoute.webp": "/EmeraldIronmonMap/static/media/GraniteCaveRoute.4223c082382f35a6f8e7.webp",
+    "static/media/MeteorFallsRoute.webp": "/EmeraldIronmonMap/static/media/MeteorFallsRoute.3775bb16507eea485bd5.webp",
     "index.html": "/EmeraldIronmonMap/index.html",
-    "main.16568bb1.css.map": "/EmeraldIronmonMap/static/css/main.16568bb1.css.map",
-    "main.e8532da3.js.map": "/EmeraldIronmonMap/static/js/main.e8532da3.js.map"
+    "main.5c599836.css.map": "/EmeraldIronmonMap/static/css/main.5c599836.css.map",
+    "main.a1729799.js.map": "/EmeraldIronmonMap/static/js/main.a1729799.js.map"
   },
   "entrypoints": [
-    "static/css/main.16568bb1.css",
-    "static/js/main.e8532da3.js"
+    "static/css/main.5c599836.css",
+    "static/js/main.a1729799.js"
   ]
 }
