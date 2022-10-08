@@ -472,6 +472,11 @@ export const items: ItemData[] = [
     y: 1509,
     type: ItemType.TM,
   },
+  {
+    x: 2324,
+    y: 2165,
+    type: ItemType.TM,
+  },
 
   // Jagged Pass
   {
@@ -1016,6 +1021,11 @@ export const items: ItemData[] = [
   {
     x: 9896,
     y: 1322,
+    type: ItemType.Normal,
+  },
+  {
+    x: 9457,
+    y: 1989,
     type: ItemType.Normal,
   },
 

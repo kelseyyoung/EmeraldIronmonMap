@@ -379,7 +379,6 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [21],
     x: 3504,
     y: 5479,
-    spinner: true,
   },
   {
     name: "Tuber Lola",
@@ -394,7 +393,6 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [20, 20],
     x: 3631,
     y: 5432,
-    spinner: true,
   },
   {
     name: "Sailor Edmond",
@@ -402,7 +400,6 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [21],
     x: 3584,
     y: 5521,
-    spinner: true,
   },
 
   // Seashore House
@@ -1228,6 +1225,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [41, 41],
     x: 1536,
     y: 6074,
+    spinner: true,
   },
   {
     name: "Swimmer Tony",
@@ -1250,6 +1248,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [38, 38, 38],
     x: 1939,
     y: 6123,
+    spinner: true,
   },
   {
     name: "Triathlete Camron",
@@ -1257,7 +1256,6 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [42],
     x: 2079,
     y: 6036,
-    spinner: true,
   },
   {
     name: "Swimmer Beth",
@@ -1272,6 +1270,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [42],
     x: 2365,
     y: 6067,
+    spinner: true,
   },
   {
     name: "Swimmer Matthew",
@@ -1287,6 +1286,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [41, 41],
     x: 2797,
     y: 6151,
+    spinner: true,
   },
   {
     name: "Cooltrainer Carolina",
@@ -1338,6 +1338,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [42],
     x: 3666,
     y: 5829,
+    spinner: true,
   },
   {
     name: "Swimmer Alice",
@@ -1345,6 +1346,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [38, 38, 38],
     x: 3599,
     y: 5933,
+    spinner: true,
   },
   {
     name: "Fisherman Carter",
@@ -1445,6 +1447,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [44],
     x: 4593,
     y: 1376,
+    spinner: true,
   },
   {
     name: "Parasol Lady Rachel",
@@ -1545,6 +1548,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [42, 42, 42],
     x: 4316,
     y: 640,
+    spinner: true,
   },
   {
     name: "Aqua Admin Shelly",
@@ -1561,6 +1565,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [45, 45],
     x: 6016,
     y: 286,
+    spinner: true,
   },
   {
     name: "Bird Keeper Robert",
@@ -1633,6 +1638,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [44, 44, 44],
     x: 6064,
     y: 1472,
+    spinner: true,
   },
   {
     name: "Ninja Boy Keigo",
@@ -1647,6 +1653,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [44, 44, 44],
     x: 5904,
     y: 1152,
+    spinner: true,
   },
 
   // Rt 121
@@ -1671,6 +1678,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [47, 47],
     x: 6752,
     y: 1553,
+    spinner: true,
   },
   {
     name: "Sr. and Jr. Kate & Joy",
@@ -1706,6 +1714,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [47, 47],
     x: 7441,
     y: 1616,
+    spinner: true,
   },
   {
     name: "Cooltrainer Cristin",
@@ -1817,6 +1826,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [45, 45, 45, 45, 45],
     x: 6049,
     y: 2545,
+    spinner: true,
   },
   {
     name: "Psychic Jacki",
@@ -2172,6 +2182,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [53, 53],
     x: 9509,
     y: 1523,
+    spinner: true,
   },
   {
     name: "Sis and Bro Lila & Roy",
@@ -2423,6 +2434,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [53, 53],
     x: 10958,
     y: 3085,
+    spinner: true,
   },
   {
     name: "Fisherman Jonah",
@@ -2451,6 +2463,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [54],
     x: 11243,
     y: 3426,
+    spinner: true,
   },
 
   // Rt 128
@@ -2731,6 +2744,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [54],
     x: 5243,
     y: 4559,
+    spinner: true,
   },
   {
     name: "Swimmer Franklin",
@@ -3056,14 +3070,14 @@ export const trainers: TrainerData[] = [
   {
     name: "Old Couple John & Jay",
     numPokemon: 2,
-    pokemonLevels: [0],
+    pokemonLevels: [62, 62],
     x: 1223,
     y: 1792,
   },
   {
     name: "Dragon Tamer Nicolas",
     numPokemon: 2,
-    pokemonLevels: [0],
+    pokemonLevels: [59, 59],
     x: 1334,
     y: 1628,
   },

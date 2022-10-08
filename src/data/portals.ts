@@ -1624,16 +1624,18 @@ export const portalGroups: MapPortalGroup[] = [
           y: 4012,
         },
       },
+
       {
         portal1: {
           x: 9141,
           y: 3817,
         },
         portal2: {
-          x: 9388,
-          y: 4049,
+          x: 9515,
+          y: 4424,
         },
       },
+
       {
         portal1: {
           x: 9109,
@@ -1654,16 +1656,18 @@ export const portalGroups: MapPortalGroup[] = [
           y: 4297,
         },
       },
+
       {
         portal1: {
           x: 9221,
           y: 3814,
         },
         portal2: {
-          x: 9515,
-          y: 4424,
+          x: 9388,
+          y: 4049,
         },
       },
+
       {
         portal1: {
           x: 9564,

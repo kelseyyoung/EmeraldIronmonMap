@@ -24,8 +24,6 @@ import {
 import { useAppSelector } from "./IronmonMapUtils/state";
 import { BoundingBoxCoords, Item, MapPortal, Trainer } from "./IronmonMapUtils";
 
-export const DEBUG_MODE = false;
-
 export interface MapInteractionCSSValue {
   scale: number;
   translation: BoundingBoxCoords;
