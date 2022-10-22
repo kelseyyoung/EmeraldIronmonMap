@@ -126,7 +126,6 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [9, 9],
     x: 496,
     y: 3455,
-    spinner: true,
   },
   {
     name: "Twins Gina & Mia",
@@ -150,6 +149,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [5, 5, 5, 5],
     x: 722,
     y: 3684,
+    spinner: true,
   },
   {
     name: "Aqua Grunt",
@@ -164,6 +164,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [9, 9],
     x: 674,
     y: 3400,
+    spinner: true,
   },
 
   // Rustboro City
@@ -266,6 +267,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [15],
     x: 834,
     y: 2226,
+    spinner: true,
   },
   {
     name: "School Girl Karen",
@@ -273,6 +275,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [15],
     x: 993,
     y: 2369,
+    spinner: true,
   },
   {
     name: "Youngster Johnson",
@@ -280,6 +283,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [12, 12],
     x: 1217,
     y: 2321,
+    spinner: true,
   },
   {
     name: "Hiker Clark",
@@ -697,6 +701,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [18, 18, 18, 18, 18, 18],
     x: 2369,
     y: 2592,
+    spinner: true,
   },
 
   // Rt 111
@@ -763,6 +768,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [27, 27],
     x: 3361,
     y: 1505,
+    spinner: true,
   },
   {
     name: "Camper Travis",
@@ -770,6 +776,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [29],
     x: 3378,
     y: 1327,
+    spinner: true,
   },
   {
     name: "Camper Larry",
@@ -792,6 +799,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [26, 27, 26],
     x: 2798,
     y: 1152,
+    spinner: true,
   },
   {
     name: "Hiker Brice",
@@ -825,6 +833,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [27, 27, 27],
     x: 3344,
     y: 627,
+    spinner: true,
   },
   {
     name: "Black Belt Daisuke",
@@ -897,6 +906,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [30],
     x: 1938,
     y: 368,
+    spinner: true,
   },
   {
     name: "Picknicker Sophie",
@@ -988,7 +998,6 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [29, 29],
     x: 1121,
     y: 1343,
-    spinner: true,
   },
   {
     name: "Picknicker Angelina",
@@ -2371,8 +2380,8 @@ export const trainers: TrainerData[] = [
     name: "Swimmer Barry",
     numPokemon: 1,
     pokemonLevels: [54],
-    x: 9881,
-    y: 3430,
+    x: 9726,
+    y: 3461,
     walker: true,
   },
   {
