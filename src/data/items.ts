@@ -1107,6 +1107,16 @@ export const items: ItemData[] = [
     y: 3047,
     type: ItemType.Normal,
   },
+  {
+    x: 11154,
+    y: 4037,
+    type: ItemType.Hidden,
+  },
+  {
+    x: 10737,
+    y: 4230,
+    type: ItemType.Hidden,
+  },
 
   // Rt 132/133/134
   {
