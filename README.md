@@ -8,6 +8,8 @@ This is an interactive map of Pokemon Emerald meant for Ironmon challenge runner
 
 [FireRed/LeafGreen](https://kelseyyoung.github.io/FRLGIronmonMap)
 
+[HGSS](https://kelseyyoung.github.io/HGSSIronmonMap/)
+
 ## Using the map
 
 Trainer information is available on hover, showing the number of pokemon they have, the levels of their pokemon, and any movement information. Trainers can be "marked" by clicking on them
@@ -24,12 +26,26 @@ You can highlight all map portals via the Control Panel with various display opt
 
 ## Developers
 
-1. Clone the repo with `git pull --recurse-submodules`
+1. Clone the repo
+2. Update the IronmonMapUtils submodule
 
-- This repo uses the [IronmonMapUtils](https://github.com/kelseyyoung/IronmonMapUtils) repo as a submodule
+- First time initialization: `git submodule update --init --recursive`
+- Futher updates: `git pull --recurse-submodules`
+- If needing to make & push changes:
 
-2. Run `yarn` to install dependencies
-3. Run `yarn start` to start a local dev server
+```
+cd src/IronmonMapUtils
+git checkout main
+```
+
+- See the README in the [IronmonMapUtils repo](https://github.com/kelseyyoung/IronmonMapUtils) for more info
+
+3. Enable Git LFS git lfs install
+
+- This is for the .xcf files which is the source for the maps
+
+4. Run `yarn` to install dependencies
+5. Run `yarn start` to start a local dev server
 
 ## Found an issue? Want to suggest a feature?
 
