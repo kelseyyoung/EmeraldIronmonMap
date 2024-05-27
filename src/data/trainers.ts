@@ -1,4 +1,4 @@
-import { TrainerData } from "../IronmonMapUtils";
+import { TooltipPosition, TrainerData } from "../IronmonMapUtils";
 
 export const defaultTrainerHeight = 22;
 export const defaultTrainerWidth = 18;
@@ -198,6 +198,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [29, 29],
     x: 448,
     y: 1824,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Collector Hector",
@@ -327,6 +328,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [15],
     x: 1088,
     y: 2235,
+    tooltipPosition: TooltipPosition.Bottom,
   },
 
   // Rusturf Tunnel
@@ -440,6 +442,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [24],
     x: 3892,
     y: 4770,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Aqua Grunt",
@@ -463,6 +466,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [23, 23],
     x: 3313,
     y: 3962,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Youngster Timmy",
@@ -485,6 +489,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [23, 23],
     x: 3745,
     y: 3393,
+    tooltipPosition: TooltipPosition.Left,
   },
   {
     name: "Guitarist Joseph",
@@ -492,6 +497,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [23, 23],
     x: 3777,
     y: 3393,
+    tooltipPosition: TooltipPosition.Right,
   },
   {
     name: "Triathlete Alyssa",
@@ -680,6 +686,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [27],
     x: 2577,
     y: 2498,
+    tooltipPosition: TooltipPosition.Right,
   },
   {
     name: "Psychic Brandi",
@@ -687,6 +694,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [27],
     x: 2480,
     y: 2498,
+    tooltipPosition: TooltipPosition.Left,
   },
   {
     name: "Bug Maniac Derek",
@@ -739,6 +747,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [26, 26],
     x: 3409,
     y: 2015,
+    tooltipPosition: TooltipPosition.Left,
   },
   {
     name: "Winstrate Victoria",
@@ -753,6 +762,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [24, 24, 24],
     x: 3441,
     y: 2015,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Winstrate Vicky",
@@ -760,6 +770,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [29],
     x: 3457,
     y: 2015,
+    tooltipPosition: TooltipPosition.Right,
   },
   // TODO: Interviewer duo
   {
@@ -870,6 +881,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [29, 29],
     x: 2739,
     y: 257,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Pokemaniac Wyatt",
@@ -877,6 +889,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [29, 29],
     x: 2800,
     y: 240,
+    tooltipPosition: TooltipPosition.Right,
   },
   {
     name: "Parasol Lady Madeline",
@@ -998,6 +1011,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [29, 29],
     x: 1121,
     y: 1343,
+    tooltipPosition: TooltipPosition.Right,
   },
   {
     name: "Picknicker Angelina",
@@ -1029,6 +1043,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [32],
     x: 1908,
     y: 763,
+    tooltipPosition: TooltipPosition.Left,
   },
   {
     name: "Magma Admin Tabitha",
@@ -1075,6 +1090,7 @@ export const trainers: TrainerData[] = [
     x: 1507,
     y: 911,
     spinner: true,
+    tooltipPosition: TooltipPosition.Left,
   },
   {
     name: "Triathlete Julio",
@@ -1310,6 +1326,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [38, 38, 38],
     x: 2931,
     y: 6032,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Swimmer Jerome",
@@ -1348,6 +1365,7 @@ export const trainers: TrainerData[] = [
     x: 3666,
     y: 5829,
     spinner: true,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Swimmer Alice",
@@ -1363,6 +1381,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [41, 41],
     x: 3534,
     y: 6207,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Bird Keeper Elijah",
@@ -1506,6 +1525,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [42],
     x: 4994,
     y: 434,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Ninja Boy Yasu",
@@ -1604,6 +1624,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [48],
     x: 6050,
     y: 735,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Battle Girl Callie",
@@ -1739,6 +1760,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [47],
     x: 7280,
     y: 1598,
+    tooltipPosition: TooltipPosition.Left,
   },
 
   // Rt 123
@@ -1785,6 +1807,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [50],
     x: 7329,
     y: 2658,
+    tooltipPosition: TooltipPosition.Left,
   },
   {
     name: "Parasol Lady Kayley",
@@ -1792,6 +1815,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [50],
     x: 7329,
     y: 2688,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Hex Maniac Kindra",
@@ -1867,6 +1891,7 @@ export const trainers: TrainerData[] = [
     x: 7031,
     y: 3694,
     spinner: true,
+    tooltipPosition: TooltipPosition.Right,
   },
   {
     name: "Black Belt Zander",
@@ -1874,6 +1899,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [50],
     x: 7031,
     y: 3742,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Young Couple Dez & Luke",
@@ -1889,6 +1915,7 @@ export const trainers: TrainerData[] = [
     x: 7110,
     y: 3454,
     spinner: true,
+    tooltipPosition: TooltipPosition.Right,
   },
   {
     name: "Pokemon Breeder Gabrielle",
@@ -1905,6 +1932,7 @@ export const trainers: TrainerData[] = [
     x: 6952,
     y: 3454,
     spinner: true,
+    tooltipPosition: TooltipPosition.Left,
   },
   {
     name: "Hex Maniac Tasha",
@@ -1937,6 +1965,7 @@ export const trainers: TrainerData[] = [
     x: 7096,
     y: 2813,
     spinner: true,
+    tooltipPosition: TooltipPosition.Bottom,
   },
 
   // Mt Pyre Outside
@@ -1998,6 +2027,7 @@ export const trainers: TrainerData[] = [
     x: 4618,
     y: 3007,
     walker: true,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Magma Grunt",
@@ -2055,6 +2085,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [47],
     x: 5785,
     y: 3049,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Magma Admin Tabitha",
@@ -2279,6 +2310,7 @@ export const trainers: TrainerData[] = [
     x: 11001,
     y: 1441,
     walker: true,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Swimmer Stan",
@@ -2302,6 +2334,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [50, 50],
     x: 11443,
     y: 1775,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Magma Grunt",
@@ -2323,6 +2356,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [42, 45, 48],
     x: 11458,
     y: 1662,
+    tooltipPosition: TooltipPosition.Right,
   },
   {
     name: "Magma Grunt",
@@ -2330,6 +2364,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [51],
     x: 11458,
     y: 1518,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Magma Grunt",
@@ -2337,6 +2372,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [51],
     x: 11442,
     y: 1501,
+    tooltipPosition: TooltipPosition.Left,
   },
   {
     name: "Magma Grunt",
@@ -2419,8 +2455,9 @@ export const trainers: TrainerData[] = [
     name: "Cooltrainer Athena",
     numPokemon: 2,
     pokemonLevels: [51, 51],
-    x: 10512,
-    y: 1440,
+    x: 10430,
+    y: 2783,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Bird Keeper Aidan",
@@ -2811,6 +2848,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [54],
     x: 4497,
     y: 4706,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Cooltrainer Marley",
@@ -2882,6 +2920,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [42],
     x: 2483,
     y: 4849,
+    tooltipPosition: TooltipPosition.Bottom,
   },
   {
     name: "Ruin Maniac Garrison",
@@ -2921,6 +2960,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [56, 56],
     x: 9811,
     y: 4105,
+    tooltipPosition: TooltipPosition.Left,
   },
   {
     name: "Aqua Admin Shelly",
@@ -3066,6 +3106,7 @@ export const trainers: TrainerData[] = [
     pokemonLevels: [69, 69],
     x: 12065,
     y: 2594,
+    tooltipPosition: TooltipPosition.Right,
   },
   {
     name: "Cooltrainer Katelynn",
