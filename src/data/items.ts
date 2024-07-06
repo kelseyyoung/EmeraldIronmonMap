@@ -1323,42 +1323,42 @@ export const items: ItemData[] = [
 
   // Victory Road
   {
-    x: 12191,
+    x: 12687,
     y: 2753,
     type: ItemType.Normal,
   },
   {
-    x: 12061,
+    x: 12557,
     y: 1864,
     type: ItemType.Normal,
   },
   {
-    x: 12142,
+    x: 12638,
     y: 1318,
     type: ItemType.Hidden,
   },
   {
-    x: 12224,
+    x: 12720,
     y: 1946,
     type: ItemType.TM,
   },
   {
-    x: 12000,
+    x: 12496,
     y: 1381,
     type: ItemType.Hidden,
   },
   {
-    x: 11758,
+    x: 12254,
     y: 1431,
     type: ItemType.Normal,
   },
   {
-    x: 12141,
+    x: 12637,
     y: 2958,
     type: ItemType.Normal,
   },
   {
-    x: 12030,
+    x: 12526,
     y: 2959,
     type: ItemType.Hidden,
   },

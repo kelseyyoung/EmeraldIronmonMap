@@ -77,7 +77,7 @@ export const EmeraldIronmonMap = () => {
         {/* if so, then put into variables */}
         <img
           width="12800"
-          height="6325"
+          height="6408"
           src={FullHoenn}
           alt="Full Hoenn"
           className="pixelated full-map-img"
@@ -160,7 +160,7 @@ export const EmeraldIronmonMap = () => {
           style={{
             position: "absolute",
             top: 1300,
-            left: 11549,
+            left: 12045,
           }}
           alt="Victory Road Route"
           className={`${showRoutes ? "routes-visible" : "routes-hidden"}`}

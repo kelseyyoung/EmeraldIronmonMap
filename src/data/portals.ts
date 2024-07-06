@@ -1313,8 +1313,8 @@ export const portalGroups: MapPortalGroup[] = [
           y: 2017,
         },
         portal2: {
-          x: 11370,
-          y: 1773,
+          x: 11498,
+          y: 2187,
         },
       },
     ],
@@ -1733,78 +1733,77 @@ export const portalGroups: MapPortalGroup[] = [
           y: 3710,
         },
         portal2: {
-          x: 11786,
+          x: 12282,
           y: 2976,
         },
       },
-
       {
         portal1: {
-          x: 11691,
+          x: 12187,
           y: 2553,
         },
         portal2: {
-          x: 11677,
+          x: 12173,
           y: 1861,
         },
       },
       {
         portal1: {
-          x: 12026,
+          x: 12522,
           y: 2215,
         },
         portal2: {
-          x: 12026,
+          x: 12522,
           y: 1698,
         },
       },
       {
         portal1: {
-          x: 12221,
+          x: 12717,
           y: 2214,
         },
         portal2: {
-          x: 12219,
+          x: 12715,
           y: 2938,
         },
       },
       {
         portal1: {
-          x: 12236,
+          x: 12732,
           y: 1328,
         },
         portal2: {
-          x: 12219,
+          x: 12715,
           y: 1847,
         },
       },
       {
         portal1: {
-          x: 11818,
+          x: 12314,
           y: 2071,
         },
         portal2: {
-          x: 11853,
+          x: 12349,
           y: 1491,
         },
       },
       {
         portal1: {
-          x: 11627,
+          x: 12123,
           y: 2231,
         },
         portal2: {
-          x: 11628,
+          x: 12124,
           y: 1713,
         },
       },
       {
         portal1: {
-          x: 11865,
+          x: 12361,
           y: 2147,
         },
         portal2: {
-          x: 11884,
+          x: 12380,
           y: 2842,
         },
       },
@@ -1812,12 +1811,354 @@ export const portalGroups: MapPortalGroup[] = [
       // Exit
       {
         portal1: {
-          x: 12172,
+          x: 12668,
           y: 2419,
         },
         portal2: {
           x: 12446,
           y: 3486,
+        },
+      },
+    ],
+  },
+
+  // Rustboro Gym
+  {
+    color: "#5e120c",
+    area: "Rustboro Gym",
+    portals: [
+      // Entrance
+      {
+        portal1: {
+          x: 432,
+          y: 2419,
+        },
+        portal2: {
+          x: 688,
+          y: 2707,
+        },
+      },
+    ],
+  },
+
+  // Dewford Gym
+  {
+    color: "#23b8ae",
+    area: "Dewford Gym",
+    portals: [
+      // Entrance
+      {
+        portal1: {
+          x: 1089,
+          y: 6226,
+        },
+        portal2: {
+          x: 751,
+          y: 6387,
+        },
+      },
+    ],
+  },
+
+  // Mauville Gym
+  {
+    color: "#d2e00d",
+    area: "Mauville Gym",
+    portals: [
+      // Entrance
+      {
+        portal1: {
+          x: 3326,
+          y: 2510,
+        },
+        portal2: {
+          x: 3185,
+          y: 2473,
+        },
+      },
+    ],
+  },
+
+  // Lavaridge Gym
+  {
+    color: "#db1d26",
+    area: "Lavaridge Gym",
+    portals: [
+      // Entrance
+      {
+        portal1: {
+          x: 2319,
+          y: 1394,
+        },
+        portal2: {
+          x: 1904,
+          y: 1485,
+        },
+      },
+      {
+        portal1: {
+          x: 1850,
+          y: 1490,
+        },
+        portal2: {
+          x: 2128,
+          y: 1490,
+        },
+      },
+      {
+        portal1: {
+          x: 1818,
+          y: 1348,
+        },
+        portal2: {
+          x: 2096,
+          y: 1348,
+        },
+      },
+      {
+        portal1: {
+          x: 1689,
+          y: 1476,
+        },
+        portal2: {
+          x: 1969,
+          y: 1476,
+        },
+      },
+      {
+        portal1: {
+          x: 1984,
+          y: 1427,
+        },
+        portal2: {
+          x: 1705,
+          y: 1427,
+        },
+      },
+      {
+        portal1: {
+          x: 2049,
+          y: 1427,
+        },
+        portal2: {
+          x: 1771,
+          y: 1427,
+        },
+      },
+      {
+        portal1: {
+          x: 1690,
+          y: 1363,
+        },
+        portal2: {
+          x: 1969,
+          y: 1363,
+        },
+      },
+      {
+        portal1: {
+          x: 1969,
+          y: 1300,
+        },
+        portal2: {
+          x: 1690,
+          y: 1300,
+        },
+      },
+      {
+        portal1: {
+          x: 1722,
+          y: 1250,
+        },
+        portal2: {
+          x: 2000,
+          y: 1250,
+        },
+      },
+      {
+        portal1: {
+          x: 2080,
+          y: 1236,
+        },
+        portal2: {
+          x: 1801,
+          y: 1235,
+        },
+      },
+      {
+        portal1: {
+          x: 1850,
+          y: 1299,
+        },
+        portal2: {
+          x: 2128,
+          y: 1299,
+        },
+      },
+      {
+        portal1: {
+          x: 2160,
+          y: 1395,
+        },
+        portal2: {
+          x: 1881,
+          y: 1395,
+        },
+      },
+      {
+        portal1: {
+          x: 1880,
+          y: 1250,
+        },
+        portal2: {
+          x: 2160,
+          y: 1250,
+        },
+      },
+    ],
+  },
+
+  // Petalburg Gym
+  {
+    color: "#f2db7e",
+    area: "Petalburg Gym",
+    portals: [
+      // Entrance
+      {
+        portal1: {
+          x: 878,
+          y: 4001,
+        },
+        portal2: {
+          x: 1638,
+          y: 3998,
+        },
+      },
+    ],
+  },
+
+  // Fortree Gym
+  {
+    color: "#04400c",
+    area: "Fortree Gym",
+    portals: [
+      // Entrance
+      {
+        portal1: {
+          x: 5472,
+          y: 369,
+        },
+        portal2: {
+          x: 5575,
+          y: 873,
+        },
+      },
+    ],
+  },
+
+  // Mossdeep Gym
+  {
+    color: "#1a6347",
+    area: "Mossdeep Gym",
+    portals: [
+      // Entrance
+      {
+        portal1: {
+          x: 11316,
+          y: 1851,
+        },
+        portal2: {
+          x: 10845,
+          y: 1919,
+        },
+      },
+      {
+        portal1: {
+          x: 11231,
+          y: 1826,
+        },
+        portal2: {
+          x: 11535,
+          y: 1682,
+        },
+      },
+      {
+        portal1: {
+          x: 11264,
+          y: 1746,
+        },
+        portal2: {
+          x: 11230,
+          y: 1664,
+        },
+      },
+      {
+        portal1: {
+          x: 11326,
+          y: 1584,
+        },
+        portal2: {
+          x: 11344,
+          y: 1488,
+        },
+      },
+      {
+        portal1: {
+          x: 11360,
+          y: 1585,
+        },
+        portal2: {
+          x: 11582,
+          y: 1616,
+        },
+      },
+      {
+        portal1: {
+          x: 11391,
+          y: 1856,
+        },
+        portal2: {
+          x: 11390,
+          y: 1345,
+        },
+      },
+      {
+        portal1: {
+          x: 11423,
+          y: 1808,
+        },
+        portal2: {
+          x: 11551,
+          y: 1458,
+        },
+      },
+      {
+        portal1: {
+          x: 11551,
+          y: 1394,
+        },
+        portal2: {
+          x: 11325,
+          y: 1777,
+        },
+      },
+    ],
+  },
+
+  // Sootopolis Gym
+  {
+    color: "#05255c",
+    area: "Sootopolis Gym",
+    portals: [
+      // Entrance
+      {
+        portal1: {
+          x: 8496,
+          y: 3248,
+        },
+        portal2: {
+          x: 8346,
+          y: 2719,
         },
       },
     ],
