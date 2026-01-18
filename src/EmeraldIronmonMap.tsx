@@ -38,7 +38,7 @@ export interface MapInteractionCSSValue {
 export const EmeraldIronmonMap = () => {
   const [mapData, setMapData] = React.useState<MapInteractionCSSValue>({
     scale: 1,
-    translation: { x: 0, y: 0 },
+    translation: { x: -5000, y: -2500 },
   });
 
   const showRoutes = useAppSelector((state) => state.settings).showRoutes;

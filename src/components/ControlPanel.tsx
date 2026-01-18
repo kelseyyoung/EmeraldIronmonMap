@@ -393,7 +393,7 @@ export const ControlPanel = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://discord.gg/QEEsmNUX"
+              href="https://discord.com/invite/jFPYsZAhjX"
             >
               join the discord
             </a>
@@ -419,8 +419,7 @@ export const ControlPanel = () => {
         </IconButton>
         <DialogContent>
           <div className="dialog-text">
-            This is very much still a work in progress so there are sure to be
-            bugs/missing data. The best way to file an issue is on{" "}
+          See something wrong on the map? Want to suggest a feature? The best way to get in touch is to file an issue on{" "}
             <a
               rel="noreferrer"
               href="https://github.com/kelseyyoung/EmeraldIronmonMap/issues"
@@ -428,17 +427,7 @@ export const ControlPanel = () => {
             >
               Github
             </a>{" "}
-            or contact me on Discord (kelsey#8920)
-          </div>
-          <div className="dialog-text">
-            Looking for other Ironmon Maps? Check out the one for{" "}
-            <a
-              rel="noreferrer"
-              href="https://kelseyyoung.github.io/FRLGIronmonMap"
-              target="_blank"
-            >
-              FireRed/LeafGreen
-            </a>
+            or contact me on Discord (kelsey4)
           </div>
         </DialogContent>
       </Dialog>
