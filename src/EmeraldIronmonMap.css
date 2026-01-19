@@ -20,14 +20,42 @@
   left: 0;
 }
 
+.full-map-img {
+  /* Force GPU acceleration for smoother dragging */
+  transform: translateZ(0);
+  will-change: transform;
+  /* Optimize image rendering */
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
 .full-map-img.pixelated {
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.svg-container {
+  /* GPU acceleration for SVG elements too */
+  transform: translateZ(0);
+  will-change: transform;
+  /* Containment hints to optimize rendering */
+  contain: layout style paint;
 }
 
 .routes-visible {
   display: block;
+  /* GPU acceleration for route overlays */
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .routes-hidden {
   display: none;
+}
+
+/* Optimize the map interaction container */
+.ironmon-map > div {
+  transform: translateZ(0);
+  will-change: transform;
 }

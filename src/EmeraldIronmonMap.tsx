@@ -58,6 +58,51 @@ export const EmeraldIronmonMap = () => {
     [setMapData]
   );
 
+  // Memoize the SVG content to prevent re-rendering ~1000 elements on every drag
+  const svgContent = React.useMemo(() => {
+    return (
+      <>
+        {trainers.map((trainer, index) => {
+          return (
+            <Trainer
+              key={trainer.name.split(" ").join("") + "-" + index}
+              height={defaultTrainerHeight}
+              width={defaultTrainerWidth}
+              {...trainer}
+            />
+          );
+        })}
+        {items.map((item, index) => {
+          return (
+            <Item
+              key={"item-" + index}
+              height={defaultItemHeight}
+              width={defaultItemWidth}
+              {...item}
+            />
+          );
+        })}
+      </>
+    );
+  }, []); // Empty deps - these never change
+
+  // Memoize portals separately since they depend on mapData.scale
+  const portalContent = React.useMemo(() => {
+    return portalGroups.map((portalGroup) => {
+      return portalGroup.portals.map((portal, portalIndex) => (
+        <MapPortal
+          key={"portal-" + portalIndex}
+          index={portalIndex + 1}
+          scale={mapData.scale}
+          offsetMapCoords={offsetMapCoords}
+          color={portalGroup.color}
+          size={defaultPortalSize}
+          {...portal}
+        />
+      ));
+    });
+  }, [mapData.scale, offsetMapCoords]);
+
   return (
     <div className="ironmon-map">
       <ControlPanel />
@@ -81,6 +126,8 @@ export const EmeraldIronmonMap = () => {
           src={FullHoenn}
           alt="Full Hoenn"
           className="pixelated full-map-img"
+          draggable={false}
+          decoding="async"
         ></img>
         <img
           width="941"
@@ -91,8 +138,10 @@ export const EmeraldIronmonMap = () => {
             left: 638,
           }}
           alt="Granite Cave Route"
-          className={`${showRoutes ? "routes-visible" : "routes-hidden"}`}
+          className={`pixelated ${showRoutes ? "routes-visible" : "routes-hidden"}`}
           src={GraniteCaveRoute}
+          draggable={false}
+          decoding="async"
         ></img>
         <img
           width="660"
@@ -103,8 +152,10 @@ export const EmeraldIronmonMap = () => {
             left: 2539,
           }}
           alt="New Mauville Route"
-          className={`${showRoutes ? "routes-visible" : "routes-hidden"}`}
+          className={`pixelated ${showRoutes ? "routes-visible" : "routes-hidden"}`}
           src={NewMauvilleRoute}
+          draggable={false}
+          decoding="async"
         ></img>
         <img
           width="1921"
@@ -115,8 +166,10 @@ export const EmeraldIronmonMap = () => {
             left: 637,
           }}
           alt="Meteor Falls Route"
-          className={`${showRoutes ? "routes-visible" : "routes-hidden"}`}
+          className={`pixelated ${showRoutes ? "routes-visible" : "routes-hidden"}`}
           src={MeteorFallsRoute}
+          draggable={false}
+          decoding="async"
         ></img>
         <img
           width="2470"
@@ -127,8 +180,10 @@ export const EmeraldIronmonMap = () => {
             left: 3842,
           }}
           alt="Magma Hideout Route"
-          className={`${showRoutes ? "routes-visible" : "routes-hidden"}`}
+          className={`pixelated ${showRoutes ? "routes-visible" : "routes-hidden"}`}
           src={MagmaHideoutRoute}
+          draggable={false}
+          decoding="async"
         ></img>
         <img
           width="1788"
@@ -139,8 +194,10 @@ export const EmeraldIronmonMap = () => {
             left: 8537,
           }}
           alt="Aqua Hideout Route"
-          className={`${showRoutes ? "routes-visible" : "routes-hidden"}`}
+          className={`pixelated ${showRoutes ? "routes-visible" : "routes-hidden"}`}
           src={AquaHideoutRoute}
+          draggable={false}
+          decoding="async"
         ></img>
         <img
           width="1705"
@@ -151,8 +208,10 @@ export const EmeraldIronmonMap = () => {
             left: 8723,
           }}
           alt="Seafloor Cavern Route"
-          className={`${showRoutes ? "routes-visible" : "routes-hidden"}`}
+          className={`pixelated ${showRoutes ? "routes-visible" : "routes-hidden"}`}
           src={SeafloorCavernRoute}
+          draggable={false}
+          decoding="async"
         ></img>
         <img
           width="736"
@@ -163,8 +222,10 @@ export const EmeraldIronmonMap = () => {
             left: 12045,
           }}
           alt="Victory Road Route"
-          className={`${showRoutes ? "routes-visible" : "routes-hidden"}`}
+          className={`pixelated ${showRoutes ? "routes-visible" : "routes-hidden"}`}
           src={VictoryRoadRoute}
+          draggable={false}
+          decoding="async"
         ></img>
         <img
           width="3600"
@@ -175,8 +236,10 @@ export const EmeraldIronmonMap = () => {
             left: 4000,
           }}
           alt="Currents Route"
-          className={`${showRoutes ? "routes-visible" : "routes-hidden"}`}
+          className={`pixelated ${showRoutes ? "routes-visible" : "routes-hidden"}`}
           src={CurrentsRoute}
+          draggable={false}
+          decoding="async"
         ></img>
         <svg
           version="1.1"
@@ -186,39 +249,8 @@ export const EmeraldIronmonMap = () => {
           height="6325"
           className="svg-container"
         >
-          {trainers.map((trainer, index) => {
-            return (
-              <Trainer
-                key={trainer.name.split(" ").join("") + "-" + index}
-                height={defaultTrainerHeight}
-                width={defaultTrainerWidth}
-                {...trainer}
-              />
-            );
-          })}
-          {items.map((item, index) => {
-            return (
-              <Item
-                key={"item-" + index}
-                height={defaultItemHeight}
-                width={defaultItemWidth}
-                {...item}
-              />
-            );
-          })}
-          {portalGroups.map((portalGroup) => {
-            return portalGroup.portals.map((portal, portalIndex) => (
-              <MapPortal
-                key={"portal-" + portalIndex}
-                index={portalIndex + 1}
-                scale={mapData.scale}
-                offsetMapCoords={offsetMapCoords}
-                color={portalGroup.color}
-                size={defaultPortalSize}
-                {...portal}
-              />
-            ));
-          })}
+          {svgContent}
+          {portalContent}
         </svg>
       </MapInteractionCSS>
     </div>
