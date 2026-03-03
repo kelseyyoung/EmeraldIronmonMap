@@ -55,7 +55,7 @@ export const EmeraldIronmonMap = () => {
         };
       });
     },
-    [setMapData]
+    [setMapData],
   );
 
   // Memoize the SVG content to prevent re-rendering ~1000 elements on every drag
@@ -246,7 +246,7 @@ export const EmeraldIronmonMap = () => {
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
           width="12800"
-          height="6325"
+          height="6408"
           className="svg-container"
         >
           {svgContent}
