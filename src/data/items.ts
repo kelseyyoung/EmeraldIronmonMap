@@ -446,6 +446,11 @@ export const items: ItemData[] = [
     type: ItemType.Normal,
   },
   {
+    x: 1132,
+    y: 498,
+    type: ItemType.Normal,
+  },
+  {
     x: 962,
     y: 1111,
     type: ItemType.Hidden,
