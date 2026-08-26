@@ -1,0 +1,17 @@
+{
+  "width": 12800,
+  "height": 6408,
+  "tileSize": 1024,
+  "cols": 13,
+  "rows": 7,
+  "settings": {
+    "tileSize": 1024,
+    "overviewMaxDim": 2048,
+    "tileWebp": {
+      "quality": 90
+    },
+    "overviewWebp": {
+      "quality": 90
+    }
+  }
+}
